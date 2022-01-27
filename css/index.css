@@ -1,0 +1,201 @@
+/* CLEAR WEBHOST */
+
+img[alt="www.000webhost.com"] {
+    display: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@font-face {
+    font-family: Cocogoose;
+    src: url("../fonts/Cocogoose.ttf");
+}
+
+@font-face {
+    font-family: mont;
+    src: url("../fonts/Mont.otf");
+}
+
+@font-face {
+    font-family: code;
+    src: url("../fonts/code.otf");
+}
+
+* {
+    transition: all 0.3s ease-in-out;
+    scroll-behavior: smooth;
+    border: 0 !important;
+}
+
+a.nav-link,
+a.dropdown-item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5vh;
+}
+
+body {
+    background-color: #dedede;
+}
+
+.rowgithub,
+.rowgithubintro {
+    background-color: #1a1a1a;
+    clip-path: url(#wave);
+}
+
+.curves {
+    width: 100%;
+}
+
+#curves {
+    position: absolute;
+}
+
+#curvesmobile {
+    width: 100%;
+}
+
+#curvestop {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.rowgithub,
+.rowgithubmobile,
+.rowguto,
+.rowmultimidia,
+.rowglobout,
+.rowfooter {
+    background-color: #1a1a1a;
+    margin-top: -0.25rem !important;
+    margin-bottom: -0.25rem !important;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+.navbar-brand {
+    font-family: 'mont', sans-serif;
+    font-size: 3vh;
+}
+
+b {
+    color: rgba(255, 255, 255, .6);
+    font-size: 3vh;
+}
+
+h1 {
+    color: #212121;
+    font-family: 'code', sans-serif;
+    font-size: 10vh;
+}
+
+h2 {
+    color: #212121;
+    font-family: 'code', sans-serif;
+    font-size: 6vh;
+}
+
+.h2mobile {
+    color: #212121;
+    font-family: 'code', sans-serif;
+    font-size: 3.8vh;
+}
+
+.svgs:hover {
+    /* width: 45%; */
+    cursor: pointer;
+}
+
+p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.6vh;
+    text-align: justify;
+}
+
+p.aboutme {
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.7vh;
+    text-align: justify;
+}
+
+.projetos-title {
+    color: white;
+    font-family: 'code', sans-serif;
+    font-size: 8vh;
+}
+
+.projetos-title-mobile {
+    color: white;
+    font-family: 'code', sans-serif;
+    font-size: 6vh;
+}
+
+.footer-desc {
+    align-items: start !important;
+    justify-content: start !important;
+}
+
+.formacao-title {
+    color: #212121;
+    font-family: 'code', sans-serif;
+    font-size: 8vh;
+}
+
+.formacao-desc {
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.7vh;
+}
+
+.footer-title {
+    font-family: 'mont', sans-serif;
+    font-size: 4.5vh;
+}
+
+.footer-title-mobile {
+    font-family: 'mont', sans-serif;
+    font-size: 3vh;
+}
+
+.h-70 {
+    height: 70%;
+}
+
+.h-60 {
+    height: 60%;
+}
+
+.h-40 {
+    height: 40%!important
+}
+
+.links {
+    color: #ed9b0c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ed9b0c;
+    text-decoration: none;
+}
+
+
+/* BOOTSTRAP CUSTOM CONFIG */
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1vh;
+        padding-left: 1vh;
+    }
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #ed9b0c;
+}

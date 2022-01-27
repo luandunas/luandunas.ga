@@ -1,0 +1,264 @@
+@font-face {
+    font-family: 'windows95';
+    src: url("../font/Windows95.woff");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'windows95';
+    user-select: none;
+}
+
+html, body, main{
+    height: 100%;
+}
+
+main{
+    background-color: #007D7B;
+    cursor: url("../cursor/Cursor79.cur"), auto;
+}
+
+.logonScreen{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+}
+
+.logonWindow{
+    width: 25%;
+    background-color: #BDBEBD;
+    border-style: solid;
+    border-width: 2px;
+    border-left-color: #FAFAFA;
+    border-top-color: #FAFAFA;
+    /* box-shadow: 0px 1px 1px 0px black; */
+}
+
+.windowHeader{
+    background-image: linear-gradient(to right, #00047B, #4E99C6);
+    margin: 1px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rightButtons{
+    display: flex;
+    align-items: center;
+}
+
+.headerButtons{
+    width: 25px;
+    margin-left: 2px;
+}
+
+.windowTitle{
+    padding: 2px;
+}
+
+.clouds{
+    width: 100%;
+    height: 70px;
+    object-fit: cover;
+    object-position: top left;
+}
+
+.usersList{
+    margin: 10px;
+}
+
+.labelAboveWindow{
+    padding-bottom: 2px;
+}
+
+.inputField{
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 2px;
+    border-top-color: #444444;
+    border-left-color: #444444;
+    border-right-color: #FBFBFB;
+    border-bottom-color: #FBFBFB;
+}
+
+.disabledInputField{
+    background-color: #BFBFBF;
+    border-style: solid;
+    border-width: 2px;
+    border-top-color: #444444;
+    border-left-color: #444444;
+    border-right-color: #FBFBFB;
+    border-bottom-color: #FBFBFB;
+}
+
+.selectWindow{
+    height: 100px;
+}
+
+.selectOption{
+    padding: 1px;
+    background: #00007B;
+    color: white;
+}
+
+.passwordField{
+    margin: 10px;
+}
+
+.passwordInput{
+    box-sizing: border-box;
+    padding: 2px;
+    width: 100%;
+}
+
+.selectOption:hover, .button:hover{
+    cursor: url("../cursor/middleFinger.cur"), auto;
+}
+
+.passwordInput:hover{
+    cursor: text;
+}
+
+.button{
+    box-sizing: border-box;
+    background-color: #BDBEBD;
+    border-style: solid;
+    border-width: 2px;
+    border-right-color: #444444;
+    border-bottom-color: #444444;
+    border-top-color: #FBFBFB;
+    border-left-color: #FBFBFB;
+    /* box-shadow: 0px 1px 1px 0px black; */
+}
+
+.px-80{
+    width: 80px;
+    height: 20px;
+}
+
+.pressedButton{
+    box-sizing: border-box;
+    border-left-color: #444444;
+    border-top-color: #444444;
+    border-bottom-color: #FBFBFB;
+    border-right-color: #FBFBFB;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+
+.buttonSelected{
+    box-shadow: 0px 0px 0px 1px black;
+}
+
+.submitButtons{
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+    margin-left: 5px;
+}
+
+/* Desktop */
+.desktop{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    overflow: hidden;
+}
+
+.desktopPrograms{
+    height: calc(100% - 30px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: start;
+}
+
+#selectBox {
+    border: 1px dashed #C2C6CA;
+    position: absolute;
+}
+
+.taskbar{
+    height: 30px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #C2C6CA;
+    border-top: solid 2px #FBFBFB;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+.verticalLineBlack{
+    background-color: aliceblue;
+    height: 90%;
+    width: 2px;
+    margin-left: 2px;
+    box-shadow: inset black 1px 1px 2px;
+}
+
+.verticalLineWhite{
+    background-color: #E5E5E5;
+    height: 60%;
+    width: 2px;
+    margin-left: 2px;
+    box-shadow: #a0a0a0 1px 0px 1px;
+}
+
+.startButton{
+    display: flex;
+    flex-direction: row;
+    width: 80px;
+    height: 90%;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-left: 2px;
+}
+
+.imgStartMenu{
+    width: 20px;
+    height: auto;
+}
+
+.program{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+.program:hover{
+    box-sizing: border-box;
+    outline: 1px dashed #C2C6CA;
+}
+
+.imgProgram{
+    width: 50px;
+    margin-bottom: 5px;
+}
+.programText{
+    color: white;
+}
+
+/* Miscellaneous */
+.pl-5{
+    margin-left: 5px;
+}
+

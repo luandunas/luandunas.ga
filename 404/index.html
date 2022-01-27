@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Me98 Clea</title>
+</head>
+
+<body>
+    <main>
+        <div class="logonScreen">
+            <div class="logonWindow">
+                <div class="windowHeader">
+                    <p class="windowTitle text">Enter Password</p>
+                    <div class="rightButtons">
+                        <button class="closeButton button headerButtons">X</button>
+                        <button class="closeButton button headerButtons">?</button>
+                    </div>
+                </div>
+                <img class="clouds" src="img/logonClouds.jpg" alt="" srcset="">
+                <div class="usersList">
+                    <p class="labelAboveWindow">Select user name:</p>
+                    <div class="selectWindow inputField">
+                        <p class="selectOption">Dunas</p>
+                    </div>
+                </div>
+
+                <div class="passwordField">
+                    <p class="labelAboveWindow">Password:</p>
+                    <input class="passwordInput disabledInputField" type="password" value="clea" disabled>
+                </div>
+
+                <div class="submitButtons">
+                    <button class="button buttonSelected px-80 pl-5" onclick="init()">OK</button>
+                    <button class="button px-80 pl-5">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="desktop">
+            <div class="desktopPrograms">
+                <div id="selectBox" hidden></div>
+
+                <div class="program">
+                    <img class="imgProgram" src="img/folder.png" alt="" srcset="">
+                    <p class="programText">Meus Documentos</p>
+                </div>
+
+                <div class="program">
+                    <img class="imgProgram" src="img/recycleBin.png" alt="" srcset="">
+                    <p class="programText">Lixeira</p>
+                </div>
+
+                <div class="program">
+                    <img class="imgProgram" src="img/audioPlayer.png" alt="" srcset="">
+                    <p class="programText">CD Player</p>
+                </div>
+
+                <div class="program">
+                    <img class="imgProgram" src="img/myComputer.png" alt="" srcset="">
+                    <p class="programText">Meu computador</p>
+                </div>
+
+                <div class="program">
+                    <img class="imgProgram" src="img/iexplorer.png" alt="" srcset="">
+                    <p class="programText">Internet Explorer</p>
+                </div>
+
+                <div class="program">
+                    <img class="imgProgram" src="img/txtfile.png" alt="" srcset="">
+                    <p class="programText">clea.txt</p>
+                </div>
+                <div class="program">
+                    <img class="imgProgram" src="img/AnonMe.png" alt="" srcset="">
+                    <p class="programText">AnonMe.exe</p>
+                </div>
+            </div>
+
+            <div class="taskbar">
+                <button class="button startButton"><img class="imgStartMenu" src="img/windows_start_button.png" alt=""
+                        srcset="">Start</button>
+                        <div class="verticalLineBlack"></div>
+                        <div class="verticalLineWhite"></div>
+                        <div class="taskbarPrograms">
+
+                        </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <script src="js/logon.js"></script>
+</body>
+
+</html>
