@@ -12,7 +12,7 @@
 <body>
     <main>
         <div class="logonScreen">
-            <div class="logonWindow">
+            <div class="window">
                 <div class="windowHeader">
                     <p class="windowTitle text">Enter Password</p>
                     <div class="rightButtons">
@@ -34,7 +34,7 @@
                 </div>
 
                 <div class="submitButtons">
-                    <button class="button buttonSelected px-80 pl-5" onclick="init()">OK</button>
+                    <button class="button buttonSelected px-80 pl-5" onclick="init(true)">OK</button>
                     <button class="button px-80 pl-5">Cancel</button>
                 </div>
             </div>
@@ -77,24 +77,59 @@
                     <img class="imgProgram" src="img/AnonMe.png" alt="" srcset="">
                     <p class="programText">AnonMe.exe</p>
                 </div>
+                <div class="program" data-programname="VALORANT">
+                    <img class="imgProgram" src="img/valorant.png" alt="" srcset="">
+                    <p class="programText">VALORANT</p>
+                </div>
+                <div class="program" data-programname="Discord">
+                    <img class="imgProgram" src="img/discord.png" alt="" srcset="">
+                    <p class="programText">Discord</p>
+                </div>
+            </div>
+
+            <div class="allWindowPrograms">
             </div>
 
             <div class="taskbar">
                 <button class="button startButton"><img class="imgStartMenu" src="img/windows_start_button.png" alt=""
                         srcset="">Start</button>
-                        <div class="verticalLineBlack"></div>
-                        <div class="verticalLineWhite"></div>
-                        <div class="taskbarPrograms">
+                <div class="verticalLineBlack"></div>
+                <div class="verticalLineWhite"></div>
+                <div class="taskbarPrograms">
 
-                        </div>
+                </div>
+
+                <div class="taksbarRightInfo">
+                    <div class="calendar">
+                        <img class="taskbarRightIcon" src="img/calendar.png" alt="" srcset="">
+                    </div>
+                    <div class="loudSpeaker">
+                        <img class="taskbarRightIcon" src="img/loudSpeaker.png" alt="" srcset="">
+                    </div>
+                    <div class="time">
+                        <p id="taskbarClockTime">21:59</p>
+                    </div>
+                </div>
             </div>
         </div>
+
+        <div id="playerRef"></div>
     </main>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
     <script src="js/loadingCursor.js"></script>
     <script src="js/logon.js"></script>
     <script src="js/desktop.js"></script>
+    <script>
+        // 2. This code loads the IFrame Player API code asynchronously.
+        var tag = document.createElement('script');
+
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    </script>
+
+    <script src="js/musicPlayer.js"></script>
 </body>
 
 </html>

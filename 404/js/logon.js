@@ -1,3 +1,10 @@
+// checking if is first time of client on the page
+let isUserFirstLogin = localStorage.getItem("isUserFirstLogin");
+if (isUserFirstLogin === "false" && isUserFirstLogin != null) {
+    init(false);
+}
+
+
 var isLoading = false;
 
 const audioMouseDown = new Audio('audios/mousedown.mp3');
@@ -19,17 +26,22 @@ for (item of document.getElementsByClassName("button")) {
     })
 }
 
-function init() {
+function init(isUserFirstLogin) {
+    localStorage.setItem("isUserFirstLogin", "false")
     console.log("[logon.js] START");
     isLoading = true;
     loadingCursor();
-    let audio = new Audio('audios/welcome.mp3');
     let logonScreen = document.getElementsByClassName("logonScreen")[0];
-    audio.volume = 0.2;
-    audio.play()
     logonScreen.style = "display: none;";
-    audio.onended = (e) => {
-        stopLoading();
+    if (isUserFirstLogin == false) {
         document.getElementsByClassName("desktop")[0].style.opacity = "1";
-    };
+    } else {
+        let audio = new Audio('audios/welcome.mp3');
+        audio.volume = 0.2;
+        audio.play();
+        audio.onended = (e) => {
+            stopLoading();
+            document.getElementsByClassName("desktop")[0].style.opacity = "1";
+        };
+    }
 }

@@ -1,0 +1,3888 @@
+{
+	"href": "https://api.spotify.com/v1/playlists/4nArcNkW2LDOuStImVlwzq/tracks?offset=0&limit=100&market=from_token&locale=pt-BR&additional_types=track%2Cepisode",
+	"items": [{
+		"added_at": "2022-01-08T02:27:27Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "wdJXlB7iRu-QCtaJLfIaiQ",
+			"share_url": "https://open.spotify.com/track/2QZqnUyEDYENcfkTPao8I5?si=wdJXlB7iRu-QCtaJLfIaiQ",
+			"uri": "spotify:track:2QZqnUyEDYENcfkTPao8I5"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+					},
+					"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+					"id": "0OLpdla9YvZOtlPnQkXScl",
+					"name": "Jovem Dex",
+					"type": "artist",
+					"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+				}, {
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/4BZ0ACrHCLropCpHJypPvV"
+					},
+					"href": "https://api.spotify.com/v1/artists/4BZ0ACrHCLropCpHJypPvV",
+					"id": "4BZ0ACrHCLropCpHJypPvV",
+					"name": "Hash Produções",
+					"type": "artist",
+					"uri": "spotify:artist:4BZ0ACrHCLropCpHJypPvV"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/7jxkLIUllmYEoYpYSYnwG3"
+				},
+				"href": "https://api.spotify.com/v1/albums/7jxkLIUllmYEoYpYSYnwG3",
+				"id": "7jxkLIUllmYEoYpYSYnwG3",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b2732a13cba59e2fcdab2120860a",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e022a13cba59e2fcdab2120860a",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d000048512a13cba59e2fcdab2120860a",
+					"width": 64
+				}],
+				"name": "Flexin",
+				"release_date": "2018-12-24",
+				"release_date_precision": "day",
+				"total_tracks": 1,
+				"type": "album",
+				"uri": "spotify:album:7jxkLIUllmYEoYpYSYnwG3"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+				},
+				"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+				"id": "0OLpdla9YvZOtlPnQkXScl",
+				"name": "Jovem Dex",
+				"type": "artist",
+				"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/4BZ0ACrHCLropCpHJypPvV"
+				},
+				"href": "https://api.spotify.com/v1/artists/4BZ0ACrHCLropCpHJypPvV",
+				"id": "4BZ0ACrHCLropCpHJypPvV",
+				"name": "Hash Produções",
+				"type": "artist",
+				"uri": "spotify:artist:4BZ0ACrHCLropCpHJypPvV"
+			}],
+			"disc_number": 1,
+			"duration_ms": 168011,
+			"episode": false,
+			"explicit": true,
+			"external_ids": {
+				"isrc": "US7VG1880032"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/2QZqnUyEDYENcfkTPao8I5"
+			},
+			"href": "https://api.spotify.com/v1/tracks/2QZqnUyEDYENcfkTPao8I5",
+			"id": "2QZqnUyEDYENcfkTPao8I5",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Flexin",
+			"popularity": 50,
+			"preview_url": "https://p.scdn.co/mp3-preview/3533a533fb4dd2d18609a1c059d3a21298f03ac6?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:2QZqnUyEDYENcfkTPao8I5"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T02:27:45Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "89MH93mZQQGlJ5RKT_8fSg",
+			"share_url": "https://open.spotify.com/track/7fO8Ok3rByqDqGc0MmBsj9?si=89MH93mZQQGlJ5RKT_8fSg",
+			"uri": "spotify:track:7fO8Ok3rByqDqGc0MmBsj9"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+					},
+					"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+					"id": "0OLpdla9YvZOtlPnQkXScl",
+					"name": "Jovem Dex",
+					"type": "artist",
+					"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+				}, {
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/4BZ0ACrHCLropCpHJypPvV"
+					},
+					"href": "https://api.spotify.com/v1/artists/4BZ0ACrHCLropCpHJypPvV",
+					"id": "4BZ0ACrHCLropCpHJypPvV",
+					"name": "Hash Produções",
+					"type": "artist",
+					"uri": "spotify:artist:4BZ0ACrHCLropCpHJypPvV"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/78GkqDrHMgb9Fl1ovYfBuP"
+				},
+				"href": "https://api.spotify.com/v1/albums/78GkqDrHMgb9Fl1ovYfBuP",
+				"id": "78GkqDrHMgb9Fl1ovYfBuP",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b2736e9ffcd07e0bc4f1baa20df8",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e026e9ffcd07e0bc4f1baa20df8",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d000048516e9ffcd07e0bc4f1baa20df8",
+					"width": 64
+				}],
+				"name": "Porsche",
+				"release_date": "2019-10-31",
+				"release_date_precision": "day",
+				"total_tracks": 1,
+				"type": "album",
+				"uri": "spotify:album:78GkqDrHMgb9Fl1ovYfBuP"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+				},
+				"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+				"id": "0OLpdla9YvZOtlPnQkXScl",
+				"name": "Jovem Dex",
+				"type": "artist",
+				"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/4BZ0ACrHCLropCpHJypPvV"
+				},
+				"href": "https://api.spotify.com/v1/artists/4BZ0ACrHCLropCpHJypPvV",
+				"id": "4BZ0ACrHCLropCpHJypPvV",
+				"name": "Hash Produções",
+				"type": "artist",
+				"uri": "spotify:artist:4BZ0ACrHCLropCpHJypPvV"
+			}],
+			"disc_number": 1,
+			"duration_ms": 159359,
+			"episode": false,
+			"explicit": false,
+			"external_ids": {
+				"isrc": "QZHZ41956745"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/7fO8Ok3rByqDqGc0MmBsj9"
+			},
+			"href": "https://api.spotify.com/v1/tracks/7fO8Ok3rByqDqGc0MmBsj9",
+			"id": "7fO8Ok3rByqDqGc0MmBsj9",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Porsche",
+			"popularity": 56,
+			"preview_url": "https://p.scdn.co/mp3-preview/d08b79cd26ff106dfe1a0c66c146f160a0df8f89?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:7fO8Ok3rByqDqGc0MmBsj9"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T02:27:56Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "topYhwfqS76YuVtD3fUbhw",
+			"share_url": "https://open.spotify.com/track/0uv71i1waQbyRjZT86Fctu?si=topYhwfqS76YuVtD3fUbhw",
+			"uri": "spotify:track:0uv71i1waQbyRjZT86Fctu"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+					},
+					"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+					"id": "0OLpdla9YvZOtlPnQkXScl",
+					"name": "Jovem Dex",
+					"type": "artist",
+					"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+				}, {
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/4BZ0ACrHCLropCpHJypPvV"
+					},
+					"href": "https://api.spotify.com/v1/artists/4BZ0ACrHCLropCpHJypPvV",
+					"id": "4BZ0ACrHCLropCpHJypPvV",
+					"name": "Hash Produções",
+					"type": "artist",
+					"uri": "spotify:artist:4BZ0ACrHCLropCpHJypPvV"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/1ofJDp4DEAf8PHwA15DYTK"
+				},
+				"href": "https://api.spotify.com/v1/albums/1ofJDp4DEAf8PHwA15DYTK",
+				"id": "1ofJDp4DEAf8PHwA15DYTK",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b2734b9d65fce067d4a16d9f46ee",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e024b9d65fce067d4a16d9f46ee",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d000048514b9d65fce067d4a16d9f46ee",
+					"width": 64
+				}],
+				"name": "Tipo uma Glock",
+				"release_date": "2019-09-10",
+				"release_date_precision": "day",
+				"total_tracks": 1,
+				"type": "album",
+				"uri": "spotify:album:1ofJDp4DEAf8PHwA15DYTK"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+				},
+				"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+				"id": "0OLpdla9YvZOtlPnQkXScl",
+				"name": "Jovem Dex",
+				"type": "artist",
+				"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/4BZ0ACrHCLropCpHJypPvV"
+				},
+				"href": "https://api.spotify.com/v1/artists/4BZ0ACrHCLropCpHJypPvV",
+				"id": "4BZ0ACrHCLropCpHJypPvV",
+				"name": "Hash Produções",
+				"type": "artist",
+				"uri": "spotify:artist:4BZ0ACrHCLropCpHJypPvV"
+			}],
+			"disc_number": 1,
+			"duration_ms": 125156,
+			"episode": false,
+			"explicit": true,
+			"external_ids": {
+				"isrc": "QZHZ31954016"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/0uv71i1waQbyRjZT86Fctu"
+			},
+			"href": "https://api.spotify.com/v1/tracks/0uv71i1waQbyRjZT86Fctu",
+			"id": "0uv71i1waQbyRjZT86Fctu",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Tipo uma Glock",
+			"popularity": 52,
+			"preview_url": "https://p.scdn.co/mp3-preview/93d7ffd4479b80c452eee538f8ca818cccb7c1a2?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:0uv71i1waQbyRjZT86Fctu"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T02:28:08Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "2rq6K0J1TkmpwwHn37Iqng",
+			"share_url": "https://open.spotify.com/track/2KKSHsC5fHipFOiwXuAMuD?si=2rq6K0J1TkmpwwHn37Iqng",
+			"uri": "spotify:track:2KKSHsC5fHipFOiwXuAMuD"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/2KwQkyJzT9r6Hh56jtfuse"
+					},
+					"href": "https://api.spotify.com/v1/artists/2KwQkyJzT9r6Hh56jtfuse",
+					"id": "2KwQkyJzT9r6Hh56jtfuse",
+					"name": "Brandão85",
+					"type": "artist",
+					"uri": "spotify:artist:2KwQkyJzT9r6Hh56jtfuse"
+				}, {
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/4BZ0ACrHCLropCpHJypPvV"
+					},
+					"href": "https://api.spotify.com/v1/artists/4BZ0ACrHCLropCpHJypPvV",
+					"id": "4BZ0ACrHCLropCpHJypPvV",
+					"name": "Hash Produções",
+					"type": "artist",
+					"uri": "spotify:artist:4BZ0ACrHCLropCpHJypPvV"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/7w6nFzD8JcytIN7biBp4mf"
+				},
+				"href": "https://api.spotify.com/v1/albums/7w6nFzD8JcytIN7biBp4mf",
+				"id": "7w6nFzD8JcytIN7biBp4mf",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b2735e443553919c8d732dc0fdb3",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e025e443553919c8d732dc0fdb3",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d000048515e443553919c8d732dc0fdb3",
+					"width": 64
+				}],
+				"name": "Orangotango",
+				"release_date": "2021-11-11",
+				"release_date_precision": "day",
+				"total_tracks": 1,
+				"type": "album",
+				"uri": "spotify:album:7w6nFzD8JcytIN7biBp4mf"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/2KwQkyJzT9r6Hh56jtfuse"
+				},
+				"href": "https://api.spotify.com/v1/artists/2KwQkyJzT9r6Hh56jtfuse",
+				"id": "2KwQkyJzT9r6Hh56jtfuse",
+				"name": "Brandão85",
+				"type": "artist",
+				"uri": "spotify:artist:2KwQkyJzT9r6Hh56jtfuse"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/4BZ0ACrHCLropCpHJypPvV"
+				},
+				"href": "https://api.spotify.com/v1/artists/4BZ0ACrHCLropCpHJypPvV",
+				"id": "4BZ0ACrHCLropCpHJypPvV",
+				"name": "Hash Produções",
+				"type": "artist",
+				"uri": "spotify:artist:4BZ0ACrHCLropCpHJypPvV"
+			}],
+			"disc_number": 1,
+			"duration_ms": 159882,
+			"episode": false,
+			"explicit": true,
+			"external_ids": {
+				"isrc": "BXXCT2100047"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/2KKSHsC5fHipFOiwXuAMuD"
+			},
+			"href": "https://api.spotify.com/v1/tracks/2KKSHsC5fHipFOiwXuAMuD",
+			"id": "2KKSHsC5fHipFOiwXuAMuD",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Orangotango",
+			"popularity": 51,
+			"preview_url": "https://p.scdn.co/mp3-preview/717fe47265a55547101a96ffdd7dba8393d088d9?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:2KKSHsC5fHipFOiwXuAMuD"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T02:28:26Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "Oy7dvUh-TumVKKh8JShUXA",
+			"share_url": "https://open.spotify.com/track/0VX14yGmB5SQssoZTCz8WO?si=Oy7dvUh-TumVKKh8JShUXA",
+			"uri": "spotify:track:0VX14yGmB5SQssoZTCz8WO"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/2c6lGDjkOP3A9RsFP4DVrz"
+					},
+					"href": "https://api.spotify.com/v1/artists/2c6lGDjkOP3A9RsFP4DVrz",
+					"id": "2c6lGDjkOP3A9RsFP4DVrz",
+					"name": "icedmob",
+					"type": "artist",
+					"uri": "spotify:artist:2c6lGDjkOP3A9RsFP4DVrz"
+				}, {
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/6A8rC2RnuqMKJom5roADWy"
+					},
+					"href": "https://api.spotify.com/v1/artists/6A8rC2RnuqMKJom5roADWy",
+					"id": "6A8rC2RnuqMKJom5roADWy",
+					"name": "Aimar",
+					"type": "artist",
+					"uri": "spotify:artist:6A8rC2RnuqMKJom5roADWy"
+				}, {
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/4AzwJwZ476LzoYLu2EZBnX"
+					},
+					"href": "https://api.spotify.com/v1/artists/4AzwJwZ476LzoYLu2EZBnX",
+					"id": "4AzwJwZ476LzoYLu2EZBnX",
+					"name": "PVT Dael",
+					"type": "artist",
+					"uri": "spotify:artist:4AzwJwZ476LzoYLu2EZBnX"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/3RS6NmrOPj1WgVnGma2t5D"
+				},
+				"href": "https://api.spotify.com/v1/albums/3RS6NmrOPj1WgVnGma2t5D",
+				"id": "3RS6NmrOPj1WgVnGma2t5D",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b273d11a26bc6fa3e2644f2f4cb5",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e02d11a26bc6fa3e2644f2f4cb5",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d00004851d11a26bc6fa3e2644f2f4cb5",
+					"width": 64
+				}],
+				"name": "Cinto de Grife",
+				"release_date": "2021-12-22",
+				"release_date_precision": "day",
+				"total_tracks": 1,
+				"type": "album",
+				"uri": "spotify:album:3RS6NmrOPj1WgVnGma2t5D"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/2c6lGDjkOP3A9RsFP4DVrz"
+				},
+				"href": "https://api.spotify.com/v1/artists/2c6lGDjkOP3A9RsFP4DVrz",
+				"id": "2c6lGDjkOP3A9RsFP4DVrz",
+				"name": "icedmob",
+				"type": "artist",
+				"uri": "spotify:artist:2c6lGDjkOP3A9RsFP4DVrz"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/6A8rC2RnuqMKJom5roADWy"
+				},
+				"href": "https://api.spotify.com/v1/artists/6A8rC2RnuqMKJom5roADWy",
+				"id": "6A8rC2RnuqMKJom5roADWy",
+				"name": "Aimar",
+				"type": "artist",
+				"uri": "spotify:artist:6A8rC2RnuqMKJom5roADWy"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/4AzwJwZ476LzoYLu2EZBnX"
+				},
+				"href": "https://api.spotify.com/v1/artists/4AzwJwZ476LzoYLu2EZBnX",
+				"id": "4AzwJwZ476LzoYLu2EZBnX",
+				"name": "PVT Dael",
+				"type": "artist",
+				"uri": "spotify:artist:4AzwJwZ476LzoYLu2EZBnX"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0xEdwBYYjxw6wk179Tq2sJ"
+				},
+				"href": "https://api.spotify.com/v1/artists/0xEdwBYYjxw6wk179Tq2sJ",
+				"id": "0xEdwBYYjxw6wk179Tq2sJ",
+				"name": "Leviano",
+				"type": "artist",
+				"uri": "spotify:artist:0xEdwBYYjxw6wk179Tq2sJ"
+			}],
+			"disc_number": 1,
+			"duration_ms": 160249,
+			"episode": false,
+			"explicit": true,
+			"external_ids": {
+				"isrc": "QZTRX2114305"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/0VX14yGmB5SQssoZTCz8WO"
+			},
+			"href": "https://api.spotify.com/v1/tracks/0VX14yGmB5SQssoZTCz8WO",
+			"id": "0VX14yGmB5SQssoZTCz8WO",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Cinto de Grife",
+			"popularity": 47,
+			"preview_url": "https://p.scdn.co/mp3-preview/01112d1b96028df2efed37e59d5dd3220f5647ab?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:0VX14yGmB5SQssoZTCz8WO"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T02:28:29Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "PHqi5mXVTcqENqz0N_wrXQ",
+			"share_url": "https://open.spotify.com/track/5YqitoWH6ekPqLw3mM6LrQ?si=PHqi5mXVTcqENqz0N_wrXQ",
+			"uri": "spotify:track:5YqitoWH6ekPqLw3mM6LrQ"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/2c6lGDjkOP3A9RsFP4DVrz"
+					},
+					"href": "https://api.spotify.com/v1/artists/2c6lGDjkOP3A9RsFP4DVrz",
+					"id": "2c6lGDjkOP3A9RsFP4DVrz",
+					"name": "icedmob",
+					"type": "artist",
+					"uri": "spotify:artist:2c6lGDjkOP3A9RsFP4DVrz"
+				}, {
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/2KwQkyJzT9r6Hh56jtfuse"
+					},
+					"href": "https://api.spotify.com/v1/artists/2KwQkyJzT9r6Hh56jtfuse",
+					"id": "2KwQkyJzT9r6Hh56jtfuse",
+					"name": "Brandão85",
+					"type": "artist",
+					"uri": "spotify:artist:2KwQkyJzT9r6Hh56jtfuse"
+				}, {
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+					},
+					"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+					"id": "0OLpdla9YvZOtlPnQkXScl",
+					"name": "Jovem Dex",
+					"type": "artist",
+					"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/5FpoKizqIGWWtcD8vyJGAB"
+				},
+				"href": "https://api.spotify.com/v1/albums/5FpoKizqIGWWtcD8vyJGAB",
+				"id": "5FpoKizqIGWWtcD8vyJGAB",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b273fbf471d1acc6c7cc0f9cb6d6",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e02fbf471d1acc6c7cc0f9cb6d6",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d00004851fbf471d1acc6c7cc0f9cb6d6",
+					"width": 64
+				}],
+				"name": "Dash",
+				"release_date": "2021-12-02",
+				"release_date_precision": "day",
+				"total_tracks": 1,
+				"type": "album",
+				"uri": "spotify:album:5FpoKizqIGWWtcD8vyJGAB"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/2c6lGDjkOP3A9RsFP4DVrz"
+				},
+				"href": "https://api.spotify.com/v1/artists/2c6lGDjkOP3A9RsFP4DVrz",
+				"id": "2c6lGDjkOP3A9RsFP4DVrz",
+				"name": "icedmob",
+				"type": "artist",
+				"uri": "spotify:artist:2c6lGDjkOP3A9RsFP4DVrz"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/2KwQkyJzT9r6Hh56jtfuse"
+				},
+				"href": "https://api.spotify.com/v1/artists/2KwQkyJzT9r6Hh56jtfuse",
+				"id": "2KwQkyJzT9r6Hh56jtfuse",
+				"name": "Brandão85",
+				"type": "artist",
+				"uri": "spotify:artist:2KwQkyJzT9r6Hh56jtfuse"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+				},
+				"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+				"id": "0OLpdla9YvZOtlPnQkXScl",
+				"name": "Jovem Dex",
+				"type": "artist",
+				"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0xEdwBYYjxw6wk179Tq2sJ"
+				},
+				"href": "https://api.spotify.com/v1/artists/0xEdwBYYjxw6wk179Tq2sJ",
+				"id": "0xEdwBYYjxw6wk179Tq2sJ",
+				"name": "Leviano",
+				"type": "artist",
+				"uri": "spotify:artist:0xEdwBYYjxw6wk179Tq2sJ"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/4BZ0ACrHCLropCpHJypPvV"
+				},
+				"href": "https://api.spotify.com/v1/artists/4BZ0ACrHCLropCpHJypPvV",
+				"id": "4BZ0ACrHCLropCpHJypPvV",
+				"name": "Hash Produções",
+				"type": "artist",
+				"uri": "spotify:artist:4BZ0ACrHCLropCpHJypPvV"
+			}],
+			"disc_number": 1,
+			"duration_ms": 197000,
+			"episode": false,
+			"explicit": true,
+			"external_ids": {
+				"isrc": "BXXCT2100051"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/5YqitoWH6ekPqLw3mM6LrQ"
+			},
+			"href": "https://api.spotify.com/v1/tracks/5YqitoWH6ekPqLw3mM6LrQ",
+			"id": "5YqitoWH6ekPqLw3mM6LrQ",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Dash",
+			"popularity": 55,
+			"preview_url": "https://p.scdn.co/mp3-preview/86f331f6470edbc18db76a56fde08a2d4dc7ea90?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:5YqitoWH6ekPqLw3mM6LrQ"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T02:29:20Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "pJ00IKCGRCy9QYnQqNk93Q",
+			"share_url": "https://open.spotify.com/track/5Ve2D5wBgB4G2ZBeWD5vRX?si=pJ00IKCGRCy9QYnQqNk93Q",
+			"uri": "spotify:track:5Ve2D5wBgB4G2ZBeWD5vRX"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+					},
+					"href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+					"id": "0LyfQWJT6nXafLPZqxe9Of",
+					"name": "Vários intérpretes",
+					"type": "artist",
+					"uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/5x09g7mizCZEPpQgwjSYDp"
+				},
+				"href": "https://api.spotify.com/v1/albums/5x09g7mizCZEPpQgwjSYDp",
+				"id": "5x09g7mizCZEPpQgwjSYDp",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b27386be73746d9f8792db33fae2",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e0286be73746d9f8792db33fae2",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d0000485186be73746d9f8792db33fae2",
+					"width": 64
+				}],
+				"name": "Cangaço",
+				"release_date": "2021-09-29",
+				"release_date_precision": "day",
+				"total_tracks": 1,
+				"type": "album",
+				"uri": "spotify:album:5x09g7mizCZEPpQgwjSYDp"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+				},
+				"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+				"id": "0OLpdla9YvZOtlPnQkXScl",
+				"name": "Jovem Dex",
+				"type": "artist",
+				"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/7DEa9DT5UqhsCsThZo1qMX"
+				},
+				"href": "https://api.spotify.com/v1/artists/7DEa9DT5UqhsCsThZo1qMX",
+				"id": "7DEa9DT5UqhsCsThZo1qMX",
+				"name": "Não pode Ser Nada",
+				"type": "artist",
+				"uri": "spotify:artist:7DEa9DT5UqhsCsThZo1qMX"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/38JfrdJwSQMp4l0mpg7K8S"
+				},
+				"href": "https://api.spotify.com/v1/artists/38JfrdJwSQMp4l0mpg7K8S",
+				"id": "38JfrdJwSQMp4l0mpg7K8S",
+				"name": "Omni Black",
+				"type": "artist",
+				"uri": "spotify:artist:38JfrdJwSQMp4l0mpg7K8S"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/4BZ0ACrHCLropCpHJypPvV"
+				},
+				"href": "https://api.spotify.com/v1/artists/4BZ0ACrHCLropCpHJypPvV",
+				"id": "4BZ0ACrHCLropCpHJypPvV",
+				"name": "Hash Produções",
+				"type": "artist",
+				"uri": "spotify:artist:4BZ0ACrHCLropCpHJypPvV"
+			}],
+			"disc_number": 1,
+			"duration_ms": 199867,
+			"episode": false,
+			"explicit": false,
+			"external_ids": {
+				"isrc": "BXXCT2100045"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/5Ve2D5wBgB4G2ZBeWD5vRX"
+			},
+			"href": "https://api.spotify.com/v1/tracks/5Ve2D5wBgB4G2ZBeWD5vRX",
+			"id": "5Ve2D5wBgB4G2ZBeWD5vRX",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Cangaço",
+			"popularity": 52,
+			"preview_url": "https://p.scdn.co/mp3-preview/c9cdeec921225c47995239f22f7c00e1a6696924?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:5Ve2D5wBgB4G2ZBeWD5vRX"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T02:29:33Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "LLfEQsUlSrmJvLiC4Lw2QA",
+			"share_url": "https://open.spotify.com/track/3ZDc4x4uLZ1Jssg2uhJEXG?si=LLfEQsUlSrmJvLiC4Lw2QA",
+			"uri": "spotify:track:3ZDc4x4uLZ1Jssg2uhJEXG"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/4Y0VwRwAOyJutxoVpPX4td"
+					},
+					"href": "https://api.spotify.com/v1/artists/4Y0VwRwAOyJutxoVpPX4td",
+					"id": "4Y0VwRwAOyJutxoVpPX4td",
+					"name": "Derek",
+					"type": "artist",
+					"uri": "spotify:artist:4Y0VwRwAOyJutxoVpPX4td"
+				}, {
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/5K854sjdzabwOy9KltU3Po"
+					},
+					"href": "https://api.spotify.com/v1/artists/5K854sjdzabwOy9KltU3Po",
+					"id": "5K854sjdzabwOy9KltU3Po",
+					"name": "MC Igu",
+					"type": "artist",
+					"uri": "spotify:artist:5K854sjdzabwOy9KltU3Po"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/36LHmtjC8h6ZoboyH09HcS"
+				},
+				"href": "https://api.spotify.com/v1/albums/36LHmtjC8h6ZoboyH09HcS",
+				"id": "36LHmtjC8h6ZoboyH09HcS",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b2731b507c1eba90ea5e59c363d5",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e021b507c1eba90ea5e59c363d5",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d000048511b507c1eba90ea5e59c363d5",
+					"width": 64
+				}],
+				"name": "LIL JON",
+				"release_date": "2020-10-30",
+				"release_date_precision": "day",
+				"total_tracks": 1,
+				"type": "album",
+				"uri": "spotify:album:36LHmtjC8h6ZoboyH09HcS"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/4Y0VwRwAOyJutxoVpPX4td"
+				},
+				"href": "https://api.spotify.com/v1/artists/4Y0VwRwAOyJutxoVpPX4td",
+				"id": "4Y0VwRwAOyJutxoVpPX4td",
+				"name": "Derek",
+				"type": "artist",
+				"uri": "spotify:artist:4Y0VwRwAOyJutxoVpPX4td"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/5K854sjdzabwOy9KltU3Po"
+				},
+				"href": "https://api.spotify.com/v1/artists/5K854sjdzabwOy9KltU3Po",
+				"id": "5K854sjdzabwOy9KltU3Po",
+				"name": "MC Igu",
+				"type": "artist",
+				"uri": "spotify:artist:5K854sjdzabwOy9KltU3Po"
+			}],
+			"disc_number": 1,
+			"duration_ms": 178909,
+			"episode": false,
+			"explicit": true,
+			"external_ids": {
+				"isrc": "BCEEG2000337"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/3ZDc4x4uLZ1Jssg2uhJEXG"
+			},
+			"href": "https://api.spotify.com/v1/tracks/3ZDc4x4uLZ1Jssg2uhJEXG",
+			"id": "3ZDc4x4uLZ1Jssg2uhJEXG",
+			"is_local": false,
+			"is_playable": true,
+			"name": "LIL JON",
+			"popularity": 38,
+			"preview_url": "https://p.scdn.co/mp3-preview/edecbd09940f6d18197355547ad3d3f95ecba4b7?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:3ZDc4x4uLZ1Jssg2uhJEXG"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T02:29:41Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "PjIl-YfIT_OUbzBRHVuQGQ",
+			"share_url": "https://open.spotify.com/track/4xXs9gGGcEDUGmDnuXQXVS?si=PjIl-YfIT_OUbzBRHVuQGQ",
+			"uri": "spotify:track:4xXs9gGGcEDUGmDnuXQXVS"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/4Y0VwRwAOyJutxoVpPX4td"
+					},
+					"href": "https://api.spotify.com/v1/artists/4Y0VwRwAOyJutxoVpPX4td",
+					"id": "4Y0VwRwAOyJutxoVpPX4td",
+					"name": "Derek",
+					"type": "artist",
+					"uri": "spotify:artist:4Y0VwRwAOyJutxoVpPX4td"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/5TD6MkSiOx8xf348CL4ett"
+				},
+				"href": "https://api.spotify.com/v1/albums/5TD6MkSiOx8xf348CL4ett",
+				"id": "5TD6MkSiOx8xf348CL4ett",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b273b865332432093dd68789aef8",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e02b865332432093dd68789aef8",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d00004851b865332432093dd68789aef8",
+					"width": 64
+				}],
+				"name": "Faz a Pose",
+				"release_date": "2018-10-15",
+				"release_date_precision": "day",
+				"total_tracks": 1,
+				"type": "album",
+				"uri": "spotify:album:5TD6MkSiOx8xf348CL4ett"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/4Y0VwRwAOyJutxoVpPX4td"
+				},
+				"href": "https://api.spotify.com/v1/artists/4Y0VwRwAOyJutxoVpPX4td",
+				"id": "4Y0VwRwAOyJutxoVpPX4td",
+				"name": "Derek",
+				"type": "artist",
+				"uri": "spotify:artist:4Y0VwRwAOyJutxoVpPX4td"
+			}],
+			"disc_number": 1,
+			"duration_ms": 126766,
+			"episode": false,
+			"explicit": true,
+			"external_ids": {
+				"isrc": "BXOTU1900006"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/4xXs9gGGcEDUGmDnuXQXVS"
+			},
+			"href": "https://api.spotify.com/v1/tracks/4xXs9gGGcEDUGmDnuXQXVS",
+			"id": "4xXs9gGGcEDUGmDnuXQXVS",
+			"is_local": false,
+			"is_playable": false,
+			"name": "Faz a Pose",
+			"popularity": 28,
+			"preview_url": null,
+			"restrictions": {
+				"reason": "market"
+			},
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:4xXs9gGGcEDUGmDnuXQXVS"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T02:30:05Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "DBV74nz8R4KhGsoQPxNPsQ",
+			"share_url": "https://open.spotify.com/track/7hxijS3tIGTew6snIX1jBv?si=DBV74nz8R4KhGsoQPxNPsQ",
+			"uri": "spotify:track:7hxijS3tIGTew6snIX1jBv"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/4xUawweuqhjMvoScRGbveR"
+					},
+					"href": "https://api.spotify.com/v1/artists/4xUawweuqhjMvoScRGbveR",
+					"id": "4xUawweuqhjMvoScRGbveR",
+					"name": "Raffa Moreira",
+					"type": "artist",
+					"uri": "spotify:artist:4xUawweuqhjMvoScRGbveR"
+				}, {
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/1hPmOnsx6jp4aAvEzsmrYx"
+					},
+					"href": "https://api.spotify.com/v1/artists/1hPmOnsx6jp4aAvEzsmrYx",
+					"id": "1hPmOnsx6jp4aAvEzsmrYx",
+					"name": "Loc Dog",
+					"type": "artist",
+					"uri": "spotify:artist:1hPmOnsx6jp4aAvEzsmrYx"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/2oRyzzC0fppckIOWwfa3Qv"
+				},
+				"href": "https://api.spotify.com/v1/albums/2oRyzzC0fppckIOWwfa3Qv",
+				"id": "2oRyzzC0fppckIOWwfa3Qv",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b273291f9dc139d774090fe8675a",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e02291f9dc139d774090fe8675a",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d00004851291f9dc139d774090fe8675a",
+					"width": 64
+				}],
+				"name": "Fah Fah Fah Fah",
+				"release_date": "2019-09-05",
+				"release_date_precision": "day",
+				"total_tracks": 1,
+				"type": "album",
+				"uri": "spotify:album:2oRyzzC0fppckIOWwfa3Qv"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/4xUawweuqhjMvoScRGbveR"
+				},
+				"href": "https://api.spotify.com/v1/artists/4xUawweuqhjMvoScRGbveR",
+				"id": "4xUawweuqhjMvoScRGbveR",
+				"name": "Raffa Moreira",
+				"type": "artist",
+				"uri": "spotify:artist:4xUawweuqhjMvoScRGbveR"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/1hPmOnsx6jp4aAvEzsmrYx"
+				},
+				"href": "https://api.spotify.com/v1/artists/1hPmOnsx6jp4aAvEzsmrYx",
+				"id": "1hPmOnsx6jp4aAvEzsmrYx",
+				"name": "Loc Dog",
+				"type": "artist",
+				"uri": "spotify:artist:1hPmOnsx6jp4aAvEzsmrYx"
+			}],
+			"disc_number": 1,
+			"duration_ms": 136777,
+			"episode": false,
+			"explicit": true,
+			"external_ids": {
+				"isrc": "QZHZ31961832"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/7hxijS3tIGTew6snIX1jBv"
+			},
+			"href": "https://api.spotify.com/v1/tracks/7hxijS3tIGTew6snIX1jBv",
+			"id": "7hxijS3tIGTew6snIX1jBv",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Fah Fah Fah Fah",
+			"popularity": 40,
+			"preview_url": "https://p.scdn.co/mp3-preview/a6c8692730284675005e0e41bbdf51de2c7966f7?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:7hxijS3tIGTew6snIX1jBv"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T02:31:00Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "7M8vpsIfQmy-uI-7YClCpg",
+			"share_url": "https://open.spotify.com/track/4kC3nGz2ilnPteXDhtxKTe?si=7M8vpsIfQmy-uI-7YClCpg",
+			"uri": "spotify:track:4kC3nGz2ilnPteXDhtxKTe"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/3SyOg7lVYi7SEIVgvaVKe0"
+					},
+					"href": "https://api.spotify.com/v1/artists/3SyOg7lVYi7SEIVgvaVKe0",
+					"id": "3SyOg7lVYi7SEIVgvaVKe0",
+					"name": "ogtreasure",
+					"type": "artist",
+					"uri": "spotify:artist:3SyOg7lVYi7SEIVgvaVKe0"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/4wpbyl6ydEVGiGBbRCZtZC"
+				},
+				"href": "https://api.spotify.com/v1/albums/4wpbyl6ydEVGiGBbRCZtZC",
+				"id": "4wpbyl6ydEVGiGBbRCZtZC",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b273ea0cea5478542d45d07f4384",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e02ea0cea5478542d45d07f4384",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d00004851ea0cea5478542d45d07f4384",
+					"width": 64
+				}],
+				"name": "Cone",
+				"release_date": "2021-02-27",
+				"release_date_precision": "day",
+				"total_tracks": 1,
+				"type": "album",
+				"uri": "spotify:album:4wpbyl6ydEVGiGBbRCZtZC"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/3SyOg7lVYi7SEIVgvaVKe0"
+				},
+				"href": "https://api.spotify.com/v1/artists/3SyOg7lVYi7SEIVgvaVKe0",
+				"id": "3SyOg7lVYi7SEIVgvaVKe0",
+				"name": "ogtreasure",
+				"type": "artist",
+				"uri": "spotify:artist:3SyOg7lVYi7SEIVgvaVKe0"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0YWKYHR1rKdnPRlYvisCqo"
+				},
+				"href": "https://api.spotify.com/v1/artists/0YWKYHR1rKdnPRlYvisCqo",
+				"id": "0YWKYHR1rKdnPRlYvisCqo",
+				"name": "Reid",
+				"type": "artist",
+				"uri": "spotify:artist:0YWKYHR1rKdnPRlYvisCqo"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/3nfVTPYDnppERKGCRS4vim"
+				},
+				"href": "https://api.spotify.com/v1/artists/3nfVTPYDnppERKGCRS4vim",
+				"id": "3nfVTPYDnppERKGCRS4vim",
+				"name": "PJ HOUDINI",
+				"type": "artist",
+				"uri": "spotify:artist:3nfVTPYDnppERKGCRS4vim"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/1a3fr7NdeBT4JlGj6YlbDL"
+				},
+				"href": "https://api.spotify.com/v1/artists/1a3fr7NdeBT4JlGj6YlbDL",
+				"id": "1a3fr7NdeBT4JlGj6YlbDL",
+				"name": "Caio Luccas",
+				"type": "artist",
+				"uri": "spotify:artist:1a3fr7NdeBT4JlGj6YlbDL"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/1Kl8qNHNrukqOhrF0AoK3Q"
+				},
+				"href": "https://api.spotify.com/v1/artists/1Kl8qNHNrukqOhrF0AoK3Q",
+				"id": "1Kl8qNHNrukqOhrF0AoK3Q",
+				"name": "Montecristo",
+				"type": "artist",
+				"uri": "spotify:artist:1Kl8qNHNrukqOhrF0AoK3Q"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/6LRVpC7lJ4IYrPNeAiylYB"
+				},
+				"href": "https://api.spotify.com/v1/artists/6LRVpC7lJ4IYrPNeAiylYB",
+				"id": "6LRVpC7lJ4IYrPNeAiylYB",
+				"name": "Lil Chainz",
+				"type": "artist",
+				"uri": "spotify:artist:6LRVpC7lJ4IYrPNeAiylYB"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/3ity5LucP8qLROdXRPhogT"
+				},
+				"href": "https://api.spotify.com/v1/artists/3ity5LucP8qLROdXRPhogT",
+				"id": "3ity5LucP8qLROdXRPhogT",
+				"name": "Fabin",
+				"type": "artist",
+				"uri": "spotify:artist:3ity5LucP8qLROdXRPhogT"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/5gOFNSYG10DPSFt1AFwqfG"
+				},
+				"href": "https://api.spotify.com/v1/artists/5gOFNSYG10DPSFt1AFwqfG",
+				"id": "5gOFNSYG10DPSFt1AFwqfG",
+				"name": "Tharealjuggboy",
+				"type": "artist",
+				"uri": "spotify:artist:5gOFNSYG10DPSFt1AFwqfG"
+			}],
+			"disc_number": 1,
+			"duration_ms": 357960,
+			"episode": false,
+			"explicit": true,
+			"external_ids": {
+				"isrc": "QZGLM2104495"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/4kC3nGz2ilnPteXDhtxKTe"
+			},
+			"href": "https://api.spotify.com/v1/tracks/4kC3nGz2ilnPteXDhtxKTe",
+			"id": "4kC3nGz2ilnPteXDhtxKTe",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Cone",
+			"popularity": 48,
+			"preview_url": "https://p.scdn.co/mp3-preview/c4610fe105a73ebef51c802deee89e5d17a5766c?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:4kC3nGz2ilnPteXDhtxKTe"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T19:24:32Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "G6S4KPorQ8iaezdvEhR8-A",
+			"share_url": "https://open.spotify.com/track/3rbjHHXkyZbfhc1NEbgIsG?si=G6S4KPorQ8iaezdvEhR8-A",
+			"uri": "spotify:track:3rbjHHXkyZbfhc1NEbgIsG"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+					},
+					"href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+					"id": "0LyfQWJT6nXafLPZqxe9Of",
+					"name": "Vários intérpretes",
+					"type": "artist",
+					"uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/3vjoCrzxXsOogpeYmSNUf7"
+				},
+				"href": "https://api.spotify.com/v1/albums/3vjoCrzxXsOogpeYmSNUf7",
+				"id": "3vjoCrzxXsOogpeYmSNUf7",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b27395946eb6e32235e02ecca371",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e0295946eb6e32235e02ecca371",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d0000485195946eb6e32235e02ecca371",
+					"width": 64
+				}],
+				"name": "5 Estrelas (Remix)",
+				"release_date": "2021-01-11",
+				"release_date_precision": "day",
+				"total_tracks": 1,
+				"type": "album",
+				"uri": "spotify:album:3vjoCrzxXsOogpeYmSNUf7"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0YWKYHR1rKdnPRlYvisCqo"
+				},
+				"href": "https://api.spotify.com/v1/artists/0YWKYHR1rKdnPRlYvisCqo",
+				"id": "0YWKYHR1rKdnPRlYvisCqo",
+				"name": "Reid",
+				"type": "artist",
+				"uri": "spotify:artist:0YWKYHR1rKdnPRlYvisCqo"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/1a3fr7NdeBT4JlGj6YlbDL"
+				},
+				"href": "https://api.spotify.com/v1/artists/1a3fr7NdeBT4JlGj6YlbDL",
+				"id": "1a3fr7NdeBT4JlGj6YlbDL",
+				"name": "Caio Luccas",
+				"type": "artist",
+				"uri": "spotify:artist:1a3fr7NdeBT4JlGj6YlbDL"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/5VkAxeOIPrz93DkfyhdHDL"
+				},
+				"href": "https://api.spotify.com/v1/artists/5VkAxeOIPrz93DkfyhdHDL",
+				"id": "5VkAxeOIPrz93DkfyhdHDL",
+				"name": "Spartano",
+				"type": "artist",
+				"uri": "spotify:artist:5VkAxeOIPrz93DkfyhdHDL"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/1BxVqY0zR8ymT4bLg6abA3"
+				},
+				"href": "https://api.spotify.com/v1/artists/1BxVqY0zR8ymT4bLg6abA3",
+				"id": "1BxVqY0zR8ymT4bLg6abA3",
+				"name": "L30",
+				"type": "artist",
+				"uri": "spotify:artist:1BxVqY0zR8ymT4bLg6abA3"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/6A8rC2RnuqMKJom5roADWy"
+				},
+				"href": "https://api.spotify.com/v1/artists/6A8rC2RnuqMKJom5roADWy",
+				"id": "6A8rC2RnuqMKJom5roADWy",
+				"name": "Aimar",
+				"type": "artist",
+				"uri": "spotify:artist:6A8rC2RnuqMKJom5roADWy"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/062i8CdoT1K5E18Ai4YwVE"
+				},
+				"href": "https://api.spotify.com/v1/artists/062i8CdoT1K5E18Ai4YwVE",
+				"id": "062i8CdoT1K5E18Ai4YwVE",
+				"name": "izzat",
+				"type": "artist",
+				"uri": "spotify:artist:062i8CdoT1K5E18Ai4YwVE"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/6w3suJox8dJssrdEIlMf0q"
+				},
+				"href": "https://api.spotify.com/v1/artists/6w3suJox8dJssrdEIlMf0q",
+				"id": "6w3suJox8dJssrdEIlMf0q",
+				"name": "Victor Sabri",
+				"type": "artist",
+				"uri": "spotify:artist:6w3suJox8dJssrdEIlMf0q"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/3jLOCfBDWUMvUdxpO4X2F5"
+				},
+				"href": "https://api.spotify.com/v1/artists/3jLOCfBDWUMvUdxpO4X2F5",
+				"id": "3jLOCfBDWUMvUdxpO4X2F5",
+				"name": "Ryxn Pablo",
+				"type": "artist",
+				"uri": "spotify:artist:3jLOCfBDWUMvUdxpO4X2F5"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/3nfVTPYDnppERKGCRS4vim"
+				},
+				"href": "https://api.spotify.com/v1/artists/3nfVTPYDnppERKGCRS4vim",
+				"id": "3nfVTPYDnppERKGCRS4vim",
+				"name": "PJ HOUDINI",
+				"type": "artist",
+				"uri": "spotify:artist:3nfVTPYDnppERKGCRS4vim"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/3YVxmhkewoRHu8WFgWlCb7"
+				},
+				"href": "https://api.spotify.com/v1/artists/3YVxmhkewoRHu8WFgWlCb7",
+				"id": "3YVxmhkewoRHu8WFgWlCb7",
+				"name": "NADAMAL",
+				"type": "artist",
+				"uri": "spotify:artist:3YVxmhkewoRHu8WFgWlCb7"
+			}],
+			"disc_number": 1,
+			"duration_ms": 442173,
+			"episode": false,
+			"explicit": true,
+			"external_ids": {
+				"isrc": "BX5UA2100008"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/3rbjHHXkyZbfhc1NEbgIsG"
+			},
+			"href": "https://api.spotify.com/v1/tracks/3rbjHHXkyZbfhc1NEbgIsG",
+			"id": "3rbjHHXkyZbfhc1NEbgIsG",
+			"is_local": false,
+			"is_playable": true,
+			"name": "5 Estrelas - Remix",
+			"popularity": 48,
+			"preview_url": "https://p.scdn.co/mp3-preview/78d9355659609f580409bf697d3e3d806efeba5e?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:3rbjHHXkyZbfhc1NEbgIsG"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T19:25:19Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "ULgpjhvfQH-WLnGcm4Yk_w",
+			"share_url": "https://open.spotify.com/track/1Vr1pUKYljjKHnBz400pnt?si=ULgpjhvfQH-WLnGcm4Yk_w",
+			"uri": "spotify:track:1Vr1pUKYljjKHnBz400pnt"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+					},
+					"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+					"id": "0OLpdla9YvZOtlPnQkXScl",
+					"name": "Jovem Dex",
+					"type": "artist",
+					"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+				}, {
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/4BZ0ACrHCLropCpHJypPvV"
+					},
+					"href": "https://api.spotify.com/v1/artists/4BZ0ACrHCLropCpHJypPvV",
+					"id": "4BZ0ACrHCLropCpHJypPvV",
+					"name": "Hash Produções",
+					"type": "artist",
+					"uri": "spotify:artist:4BZ0ACrHCLropCpHJypPvV"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/6hYlkXJhIlXqgwd5j72KJT"
+				},
+				"href": "https://api.spotify.com/v1/albums/6hYlkXJhIlXqgwd5j72KJT",
+				"id": "6hYlkXJhIlXqgwd5j72KJT",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b27303c51d5e630b9bc606322fee",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e0203c51d5e630b9bc606322fee",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d0000485103c51d5e630b9bc606322fee",
+					"width": 64
+				}],
+				"name": "TRAPLIST",
+				"release_date": "2020-08-28",
+				"release_date_precision": "day",
+				"total_tracks": 4,
+				"type": "album",
+				"uri": "spotify:album:6hYlkXJhIlXqgwd5j72KJT"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+				},
+				"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+				"id": "0OLpdla9YvZOtlPnQkXScl",
+				"name": "Jovem Dex",
+				"type": "artist",
+				"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/4BZ0ACrHCLropCpHJypPvV"
+				},
+				"href": "https://api.spotify.com/v1/artists/4BZ0ACrHCLropCpHJypPvV",
+				"id": "4BZ0ACrHCLropCpHJypPvV",
+				"name": "Hash Produções",
+				"type": "artist",
+				"uri": "spotify:artist:4BZ0ACrHCLropCpHJypPvV"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/4oxFgud0qa3A1tE6JFpFVp"
+				},
+				"href": "https://api.spotify.com/v1/artists/4oxFgud0qa3A1tE6JFpFVp",
+				"id": "4oxFgud0qa3A1tE6JFpFVp",
+				"name": "JayA Luuck",
+				"type": "artist",
+				"uri": "spotify:artist:4oxFgud0qa3A1tE6JFpFVp"
+			}],
+			"disc_number": 1,
+			"duration_ms": 202937,
+			"episode": false,
+			"explicit": true,
+			"external_ids": {
+				"isrc": "BXXCT2000023"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/1Vr1pUKYljjKHnBz400pnt"
+			},
+			"href": "https://api.spotify.com/v1/tracks/1Vr1pUKYljjKHnBz400pnt",
+			"id": "1Vr1pUKYljjKHnBz400pnt",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Chanel",
+			"popularity": 47,
+			"preview_url": "https://p.scdn.co/mp3-preview/3a5ed5910349545188da4d3b79663f3c452524a7?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 4,
+			"type": "track",
+			"uri": "spotify:track:1Vr1pUKYljjKHnBz400pnt"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T21:23:25Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "0fdvsuLXSfCvWYaS6_fETg",
+			"share_url": "https://open.spotify.com/track/1cOiudg7Pt6lQwBGj2RQQQ?si=0fdvsuLXSfCvWYaS6_fETg",
+			"uri": "spotify:track:1cOiudg7Pt6lQwBGj2RQQQ"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+					},
+					"href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+					"id": "0LyfQWJT6nXafLPZqxe9Of",
+					"name": "Vários intérpretes",
+					"type": "artist",
+					"uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/2iN5aiHtgtzpvQW7dqYhP7"
+				},
+				"href": "https://api.spotify.com/v1/albums/2iN5aiHtgtzpvQW7dqYhP7",
+				"id": "2iN5aiHtgtzpvQW7dqYhP7",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b273bda44771475d3b433f3d281a",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e02bda44771475d3b433f3d281a",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d00004851bda44771475d3b433f3d281a",
+					"width": 64
+				}],
+				"name": "Revedeste",
+				"release_date": "2021-08-17",
+				"release_date_precision": "day",
+				"total_tracks": 1,
+				"type": "album",
+				"uri": "spotify:album:2iN5aiHtgtzpvQW7dqYhP7"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+				},
+				"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+				"id": "0OLpdla9YvZOtlPnQkXScl",
+				"name": "Jovem Dex",
+				"type": "artist",
+				"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/6rk6Izp6o42fUdE0jRqAP4"
+				},
+				"href": "https://api.spotify.com/v1/artists/6rk6Izp6o42fUdE0jRqAP4",
+				"id": "6rk6Izp6o42fUdE0jRqAP4",
+				"name": "Alee",
+				"type": "artist",
+				"uri": "spotify:artist:6rk6Izp6o42fUdE0jRqAP4"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/2KwQkyJzT9r6Hh56jtfuse"
+				},
+				"href": "https://api.spotify.com/v1/artists/2KwQkyJzT9r6Hh56jtfuse",
+				"id": "2KwQkyJzT9r6Hh56jtfuse",
+				"name": "Brandão85",
+				"type": "artist",
+				"uri": "spotify:artist:2KwQkyJzT9r6Hh56jtfuse"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0xEdwBYYjxw6wk179Tq2sJ"
+				},
+				"href": "https://api.spotify.com/v1/artists/0xEdwBYYjxw6wk179Tq2sJ",
+				"id": "0xEdwBYYjxw6wk179Tq2sJ",
+				"name": "Leviano",
+				"type": "artist",
+				"uri": "spotify:artist:0xEdwBYYjxw6wk179Tq2sJ"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/3exY81LSlWqpL03GFPTEgB"
+				},
+				"href": "https://api.spotify.com/v1/artists/3exY81LSlWqpL03GFPTEgB",
+				"id": "3exY81LSlWqpL03GFPTEgB",
+				"name": "Greezy",
+				"type": "artist",
+				"uri": "spotify:artist:3exY81LSlWqpL03GFPTEgB"
+			}],
+			"disc_number": 1,
+			"duration_ms": 65079,
+			"episode": false,
+			"explicit": true,
+			"external_ids": {
+				"isrc": "BXXCT2100037"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/1cOiudg7Pt6lQwBGj2RQQQ"
+			},
+			"href": "https://api.spotify.com/v1/tracks/1cOiudg7Pt6lQwBGj2RQQQ",
+			"id": "1cOiudg7Pt6lQwBGj2RQQQ",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Revedeste",
+			"popularity": 51,
+			"preview_url": "https://p.scdn.co/mp3-preview/b1cd5c04eab7113ae6d2374d1ceb17e80345455a?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:1cOiudg7Pt6lQwBGj2RQQQ"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T21:23:51Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "gP5Azq42QEiL-OsSObvfYQ",
+			"share_url": "https://open.spotify.com/track/3Ui45PHIjBeeqXjU8hRa72?si=gP5Azq42QEiL-OsSObvfYQ",
+			"uri": "spotify:track:3Ui45PHIjBeeqXjU8hRa72"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/3nfVTPYDnppERKGCRS4vim"
+					},
+					"href": "https://api.spotify.com/v1/artists/3nfVTPYDnppERKGCRS4vim",
+					"id": "3nfVTPYDnppERKGCRS4vim",
+					"name": "PJ HOUDINI",
+					"type": "artist",
+					"uri": "spotify:artist:3nfVTPYDnppERKGCRS4vim"
+				}, {
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/1a3fr7NdeBT4JlGj6YlbDL"
+					},
+					"href": "https://api.spotify.com/v1/artists/1a3fr7NdeBT4JlGj6YlbDL",
+					"id": "1a3fr7NdeBT4JlGj6YlbDL",
+					"name": "Caio Luccas",
+					"type": "artist",
+					"uri": "spotify:artist:1a3fr7NdeBT4JlGj6YlbDL"
+				}, {
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/1BxVqY0zR8ymT4bLg6abA3"
+					},
+					"href": "https://api.spotify.com/v1/artists/1BxVqY0zR8ymT4bLg6abA3",
+					"id": "1BxVqY0zR8ymT4bLg6abA3",
+					"name": "L30",
+					"type": "artist",
+					"uri": "spotify:artist:1BxVqY0zR8ymT4bLg6abA3"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/2OAIXEg8tunLopc7hUJhDh"
+				},
+				"href": "https://api.spotify.com/v1/albums/2OAIXEg8tunLopc7hUJhDh",
+				"id": "2OAIXEg8tunLopc7hUJhDh",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b273d3b392881fd0023dba1f851d",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e02d3b392881fd0023dba1f851d",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d00004851d3b392881fd0023dba1f851d",
+					"width": 64
+				}],
+				"name": "No Check Freestyle",
+				"release_date": "2020-10-23",
+				"release_date_precision": "day",
+				"total_tracks": 1,
+				"type": "album",
+				"uri": "spotify:album:2OAIXEg8tunLopc7hUJhDh"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/3nfVTPYDnppERKGCRS4vim"
+				},
+				"href": "https://api.spotify.com/v1/artists/3nfVTPYDnppERKGCRS4vim",
+				"id": "3nfVTPYDnppERKGCRS4vim",
+				"name": "PJ HOUDINI",
+				"type": "artist",
+				"uri": "spotify:artist:3nfVTPYDnppERKGCRS4vim"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/1a3fr7NdeBT4JlGj6YlbDL"
+				},
+				"href": "https://api.spotify.com/v1/artists/1a3fr7NdeBT4JlGj6YlbDL",
+				"id": "1a3fr7NdeBT4JlGj6YlbDL",
+				"name": "Caio Luccas",
+				"type": "artist",
+				"uri": "spotify:artist:1a3fr7NdeBT4JlGj6YlbDL"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/1BxVqY0zR8ymT4bLg6abA3"
+				},
+				"href": "https://api.spotify.com/v1/artists/1BxVqY0zR8ymT4bLg6abA3",
+				"id": "1BxVqY0zR8ymT4bLg6abA3",
+				"name": "L30",
+				"type": "artist",
+				"uri": "spotify:artist:1BxVqY0zR8ymT4bLg6abA3"
+			}],
+			"disc_number": 1,
+			"duration_ms": 176168,
+			"episode": false,
+			"explicit": true,
+			"external_ids": {
+				"isrc": "QZNJW2007764"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/3Ui45PHIjBeeqXjU8hRa72"
+			},
+			"href": "https://api.spotify.com/v1/tracks/3Ui45PHIjBeeqXjU8hRa72",
+			"id": "3Ui45PHIjBeeqXjU8hRa72",
+			"is_local": false,
+			"is_playable": true,
+			"name": "No Check Freestyle",
+			"popularity": 46,
+			"preview_url": "https://p.scdn.co/mp3-preview/ed547d22ca273d7427c4e8829529d6f9254c466e?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:3Ui45PHIjBeeqXjU8hRa72"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T21:24:20Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "UBhpxnCuQc6zRGWVuF0wgg",
+			"share_url": "https://open.spotify.com/track/2GnTgLFsGwXNewsIlXRAey?si=UBhpxnCuQc6zRGWVuF0wgg",
+			"uri": "spotify:track:2GnTgLFsGwXNewsIlXRAey"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/0LyfQWJT6nXafLPZqxe9Of"
+					},
+					"href": "https://api.spotify.com/v1/artists/0LyfQWJT6nXafLPZqxe9Of",
+					"id": "0LyfQWJT6nXafLPZqxe9Of",
+					"name": "Vários intérpretes",
+					"type": "artist",
+					"uri": "spotify:artist:0LyfQWJT6nXafLPZqxe9Of"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/3GIYmNqqqqKjj4ZmxAD9qM"
+				},
+				"href": "https://api.spotify.com/v1/albums/3GIYmNqqqqKjj4ZmxAD9qM",
+				"id": "3GIYmNqqqqKjj4ZmxAD9qM",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b273f46a7300ff55248330ad0e4f",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e02f46a7300ff55248330ad0e4f",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d00004851f46a7300ff55248330ad0e4f",
+					"width": 64
+				}],
+				"name": "Portal",
+				"release_date": "2021-06-11",
+				"release_date_precision": "day",
+				"total_tracks": 2,
+				"type": "album",
+				"uri": "spotify:album:3GIYmNqqqqKjj4ZmxAD9qM"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/1QAoT8rjnSPy5pXpu3yiHS"
+				},
+				"href": "https://api.spotify.com/v1/artists/1QAoT8rjnSPy5pXpu3yiHS",
+				"id": "1QAoT8rjnSPy5pXpu3yiHS",
+				"name": "NOG",
+				"type": "artist",
+				"uri": "spotify:artist:1QAoT8rjnSPy5pXpu3yiHS"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0xEdwBYYjxw6wk179Tq2sJ"
+				},
+				"href": "https://api.spotify.com/v1/artists/0xEdwBYYjxw6wk179Tq2sJ",
+				"id": "0xEdwBYYjxw6wk179Tq2sJ",
+				"name": "Leviano",
+				"type": "artist",
+				"uri": "spotify:artist:0xEdwBYYjxw6wk179Tq2sJ"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/2KwQkyJzT9r6Hh56jtfuse"
+				},
+				"href": "https://api.spotify.com/v1/artists/2KwQkyJzT9r6Hh56jtfuse",
+				"id": "2KwQkyJzT9r6Hh56jtfuse",
+				"name": "Brandão85",
+				"type": "artist",
+				"uri": "spotify:artist:2KwQkyJzT9r6Hh56jtfuse"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/4BZ0ACrHCLropCpHJypPvV"
+				},
+				"href": "https://api.spotify.com/v1/artists/4BZ0ACrHCLropCpHJypPvV",
+				"id": "4BZ0ACrHCLropCpHJypPvV",
+				"name": "Hash Produções",
+				"type": "artist",
+				"uri": "spotify:artist:4BZ0ACrHCLropCpHJypPvV"
+			}],
+			"disc_number": 1,
+			"duration_ms": 199758,
+			"episode": false,
+			"explicit": true,
+			"external_ids": {
+				"isrc": "BXXCT2100029"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/2GnTgLFsGwXNewsIlXRAey"
+			},
+			"href": "https://api.spotify.com/v1/tracks/2GnTgLFsGwXNewsIlXRAey",
+			"id": "2GnTgLFsGwXNewsIlXRAey",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Burguesinha",
+			"popularity": 37,
+			"preview_url": "https://p.scdn.co/mp3-preview/0f3bd961ee6aa1cfdc94c50bafe470e0cccbdf7f?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:2GnTgLFsGwXNewsIlXRAey"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T21:26:38Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "4In3nNUsQPubEpEN-YOwSw",
+			"share_url": "https://open.spotify.com/track/0COdap7lWmcab47ftniiIG?si=4In3nNUsQPubEpEN-YOwSw",
+			"uri": "spotify:track:0COdap7lWmcab47ftniiIG"
+		},
+		"track": {
+			"album": {
+				"album_type": "album",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+					},
+					"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+					"id": "0OLpdla9YvZOtlPnQkXScl",
+					"name": "Jovem Dex",
+					"type": "artist",
+					"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/2LT3aMTtIP0KMyKlMLNkXV"
+				},
+				"href": "https://api.spotify.com/v1/albums/2LT3aMTtIP0KMyKlMLNkXV",
+				"id": "2LT3aMTtIP0KMyKlMLNkXV",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b273b0f68a9ef1e2fd0f57d6be23",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e02b0f68a9ef1e2fd0f57d6be23",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d00004851b0f68a9ef1e2fd0f57d6be23",
+					"width": 64
+				}],
+				"name": "ÉTPM?!",
+				"release_date": "2021-05-13",
+				"release_date_precision": "day",
+				"total_tracks": 13,
+				"type": "album",
+				"uri": "spotify:album:2LT3aMTtIP0KMyKlMLNkXV"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+				},
+				"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+				"id": "0OLpdla9YvZOtlPnQkXScl",
+				"name": "Jovem Dex",
+				"type": "artist",
+				"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+			}],
+			"disc_number": 1,
+			"duration_ms": 140581,
+			"episode": false,
+			"explicit": false,
+			"external_ids": {
+				"isrc": "BXXCT2100023"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/0COdap7lWmcab47ftniiIG"
+			},
+			"href": "https://api.spotify.com/v1/tracks/0COdap7lWmcab47ftniiIG",
+			"id": "0COdap7lWmcab47ftniiIG",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Yakuza",
+			"popularity": 56,
+			"preview_url": "https://p.scdn.co/mp3-preview/a2e07c4093c83e9dbb6b2587d8c1b0c4e194a1a0?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 12,
+			"type": "track",
+			"uri": "spotify:track:0COdap7lWmcab47ftniiIG"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T21:26:49Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "EayxwAWHRaa0pvGkhvO6gA",
+			"share_url": "https://open.spotify.com/track/78VcPIRKT2KfjUYYClUSM5?si=EayxwAWHRaa0pvGkhvO6gA",
+			"uri": "spotify:track:78VcPIRKT2KfjUYYClUSM5"
+		},
+		"track": {
+			"album": {
+				"album_type": "album",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+					},
+					"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+					"id": "0OLpdla9YvZOtlPnQkXScl",
+					"name": "Jovem Dex",
+					"type": "artist",
+					"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/2LT3aMTtIP0KMyKlMLNkXV"
+				},
+				"href": "https://api.spotify.com/v1/albums/2LT3aMTtIP0KMyKlMLNkXV",
+				"id": "2LT3aMTtIP0KMyKlMLNkXV",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b273b0f68a9ef1e2fd0f57d6be23",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e02b0f68a9ef1e2fd0f57d6be23",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d00004851b0f68a9ef1e2fd0f57d6be23",
+					"width": 64
+				}],
+				"name": "ÉTPM?!",
+				"release_date": "2021-05-13",
+				"release_date_precision": "day",
+				"total_tracks": 13,
+				"type": "album",
+				"uri": "spotify:album:2LT3aMTtIP0KMyKlMLNkXV"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+				},
+				"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+				"id": "0OLpdla9YvZOtlPnQkXScl",
+				"name": "Jovem Dex",
+				"type": "artist",
+				"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/2KwQkyJzT9r6Hh56jtfuse"
+				},
+				"href": "https://api.spotify.com/v1/artists/2KwQkyJzT9r6Hh56jtfuse",
+				"id": "2KwQkyJzT9r6Hh56jtfuse",
+				"name": "Brandão85",
+				"type": "artist",
+				"uri": "spotify:artist:2KwQkyJzT9r6Hh56jtfuse"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0xEdwBYYjxw6wk179Tq2sJ"
+				},
+				"href": "https://api.spotify.com/v1/artists/0xEdwBYYjxw6wk179Tq2sJ",
+				"id": "0xEdwBYYjxw6wk179Tq2sJ",
+				"name": "Leviano",
+				"type": "artist",
+				"uri": "spotify:artist:0xEdwBYYjxw6wk179Tq2sJ"
+			}],
+			"disc_number": 1,
+			"duration_ms": 186788,
+			"episode": false,
+			"explicit": false,
+			"external_ids": {
+				"isrc": "BXXCT2100019"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/78VcPIRKT2KfjUYYClUSM5"
+			},
+			"href": "https://api.spotify.com/v1/tracks/78VcPIRKT2KfjUYYClUSM5",
+			"id": "78VcPIRKT2KfjUYYClUSM5",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Flow L.G.",
+			"popularity": 47,
+			"preview_url": "https://p.scdn.co/mp3-preview/44d64993db947fa0c0fc27adfc0355bb9092a383?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 10,
+			"type": "track",
+			"uri": "spotify:track:78VcPIRKT2KfjUYYClUSM5"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T21:28:33Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "xDcnObzKTiagJ7PiTOWOsw",
+			"share_url": "https://open.spotify.com/track/6Vgn3IEUkWs3d6og029Gtm?si=xDcnObzKTiagJ7PiTOWOsw",
+			"uri": "spotify:track:6Vgn3IEUkWs3d6og029Gtm"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/68YeXpLt3jB7JHQS5ZjMGo"
+					},
+					"href": "https://api.spotify.com/v1/artists/68YeXpLt3jB7JHQS5ZjMGo",
+					"id": "68YeXpLt3jB7JHQS5ZjMGo",
+					"name": "Teto",
+					"type": "artist",
+					"uri": "spotify:artist:68YeXpLt3jB7JHQS5ZjMGo"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/6fhHEgPoz6jfgZvwlH9jBA"
+				},
+				"href": "https://api.spotify.com/v1/albums/6fhHEgPoz6jfgZvwlH9jBA",
+				"id": "6fhHEgPoz6jfgZvwlH9jBA",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b273d8f1a65b9f22b1c70fb76cf3",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e02d8f1a65b9f22b1c70fb76cf3",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d00004851d8f1a65b9f22b1c70fb76cf3",
+					"width": 64
+				}],
+				"name": "Mustang Preto",
+				"release_date": "2021-10-10",
+				"release_date_precision": "day",
+				"total_tracks": 1,
+				"type": "album",
+				"uri": "spotify:album:6fhHEgPoz6jfgZvwlH9jBA"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/68YeXpLt3jB7JHQS5ZjMGo"
+				},
+				"href": "https://api.spotify.com/v1/artists/68YeXpLt3jB7JHQS5ZjMGo",
+				"id": "68YeXpLt3jB7JHQS5ZjMGo",
+				"name": "Teto",
+				"type": "artist",
+				"uri": "spotify:artist:68YeXpLt3jB7JHQS5ZjMGo"
+			}],
+			"disc_number": 1,
+			"duration_ms": 183000,
+			"episode": false,
+			"explicit": true,
+			"external_ids": {
+				"isrc": "BXW922100022"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/6Vgn3IEUkWs3d6og029Gtm"
+			},
+			"href": "https://api.spotify.com/v1/tracks/6Vgn3IEUkWs3d6og029Gtm",
+			"id": "6Vgn3IEUkWs3d6og029Gtm",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Mustang Preto",
+			"popularity": 76,
+			"preview_url": "https://p.scdn.co/mp3-preview/54bb99cccbe5f55f1cce81747f073a4c352696a8?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:6Vgn3IEUkWs3d6og029Gtm"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T21:30:25Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "t09Ih9DhRKC8WGQxVN3BDA",
+			"share_url": "https://open.spotify.com/track/5eP3xwK0AzZf86V3ZrSHSm?si=t09Ih9DhRKC8WGQxVN3BDA",
+			"uri": "spotify:track:5eP3xwK0AzZf86V3ZrSHSm"
+		},
+		"track": {
+			"album": {
+				"album_type": "album",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/6A8rC2RnuqMKJom5roADWy"
+					},
+					"href": "https://api.spotify.com/v1/artists/6A8rC2RnuqMKJom5roADWy",
+					"id": "6A8rC2RnuqMKJom5roADWy",
+					"name": "Aimar",
+					"type": "artist",
+					"uri": "spotify:artist:6A8rC2RnuqMKJom5roADWy"
+				}, {
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/2c6lGDjkOP3A9RsFP4DVrz"
+					},
+					"href": "https://api.spotify.com/v1/artists/2c6lGDjkOP3A9RsFP4DVrz",
+					"id": "2c6lGDjkOP3A9RsFP4DVrz",
+					"name": "icedmob",
+					"type": "artist",
+					"uri": "spotify:artist:2c6lGDjkOP3A9RsFP4DVrz"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/3N1EPcJv11dQaTrjuUtKmt"
+				},
+				"href": "https://api.spotify.com/v1/albums/3N1EPcJv11dQaTrjuUtKmt",
+				"id": "3N1EPcJv11dQaTrjuUtKmt",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b2732f0b6fda03c16858a5c246c7",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e022f0b6fda03c16858a5c246c7",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d000048512f0b6fda03c16858a5c246c7",
+					"width": 64
+				}],
+				"name": "Superficial",
+				"release_date": "2020-09-25",
+				"release_date_precision": "day",
+				"total_tracks": 8,
+				"type": "album",
+				"uri": "spotify:album:3N1EPcJv11dQaTrjuUtKmt"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/6A8rC2RnuqMKJom5roADWy"
+				},
+				"href": "https://api.spotify.com/v1/artists/6A8rC2RnuqMKJom5roADWy",
+				"id": "6A8rC2RnuqMKJom5roADWy",
+				"name": "Aimar",
+				"type": "artist",
+				"uri": "spotify:artist:6A8rC2RnuqMKJom5roADWy"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/2c6lGDjkOP3A9RsFP4DVrz"
+				},
+				"href": "https://api.spotify.com/v1/artists/2c6lGDjkOP3A9RsFP4DVrz",
+				"id": "2c6lGDjkOP3A9RsFP4DVrz",
+				"name": "icedmob",
+				"type": "artist",
+				"uri": "spotify:artist:2c6lGDjkOP3A9RsFP4DVrz"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/7ok7VWtu39OMifrrf1xxzc"
+				},
+				"href": "https://api.spotify.com/v1/artists/7ok7VWtu39OMifrrf1xxzc",
+				"id": "7ok7VWtu39OMifrrf1xxzc",
+				"name": "RC SlumStar",
+				"type": "artist",
+				"uri": "spotify:artist:7ok7VWtu39OMifrrf1xxzc"
+			}],
+			"disc_number": 1,
+			"duration_ms": 156848,
+			"episode": false,
+			"explicit": true,
+			"external_ids": {
+				"isrc": "BXIV82016410"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/5eP3xwK0AzZf86V3ZrSHSm"
+			},
+			"href": "https://api.spotify.com/v1/tracks/5eP3xwK0AzZf86V3ZrSHSm",
+			"id": "5eP3xwK0AzZf86V3ZrSHSm",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Houdini",
+			"popularity": 57,
+			"preview_url": "https://p.scdn.co/mp3-preview/5d51284fb99e825b11b3114f59f1ad3116d086a2?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 3,
+			"type": "track",
+			"uri": "spotify:track:5eP3xwK0AzZf86V3ZrSHSm"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T21:30:40Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "9mj0ovtVQW60LYlJoeXMZg",
+			"share_url": "https://open.spotify.com/track/3nFbpW0Lki4zSJRebGHQYw?si=9mj0ovtVQW60LYlJoeXMZg",
+			"uri": "spotify:track:3nFbpW0Lki4zSJRebGHQYw"
+		},
+		"track": {
+			"album": {
+				"album_type": "album",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+					},
+					"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+					"id": "0OLpdla9YvZOtlPnQkXScl",
+					"name": "Jovem Dex",
+					"type": "artist",
+					"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/2LT3aMTtIP0KMyKlMLNkXV"
+				},
+				"href": "https://api.spotify.com/v1/albums/2LT3aMTtIP0KMyKlMLNkXV",
+				"id": "2LT3aMTtIP0KMyKlMLNkXV",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b273b0f68a9ef1e2fd0f57d6be23",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e02b0f68a9ef1e2fd0f57d6be23",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d00004851b0f68a9ef1e2fd0f57d6be23",
+					"width": 64
+				}],
+				"name": "ÉTPM?!",
+				"release_date": "2021-05-13",
+				"release_date_precision": "day",
+				"total_tracks": 13,
+				"type": "album",
+				"uri": "spotify:album:2LT3aMTtIP0KMyKlMLNkXV"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+				},
+				"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+				"id": "0OLpdla9YvZOtlPnQkXScl",
+				"name": "Jovem Dex",
+				"type": "artist",
+				"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/4PzPx1yc3kGVo4EgCiLqCQ"
+				},
+				"href": "https://api.spotify.com/v1/artists/4PzPx1yc3kGVo4EgCiLqCQ",
+				"id": "4PzPx1yc3kGVo4EgCiLqCQ",
+				"name": "DomLaike",
+				"type": "artist",
+				"uri": "spotify:artist:4PzPx1yc3kGVo4EgCiLqCQ"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/6nZ39vMOOOgXQ471Jy5jhR"
+				},
+				"href": "https://api.spotify.com/v1/artists/6nZ39vMOOOgXQ471Jy5jhR",
+				"id": "6nZ39vMOOOgXQ471Jy5jhR",
+				"name": "WEY",
+				"type": "artist",
+				"uri": "spotify:artist:6nZ39vMOOOgXQ471Jy5jhR"
+			}],
+			"disc_number": 1,
+			"duration_ms": 150274,
+			"episode": false,
+			"explicit": false,
+			"external_ids": {
+				"isrc": "BXXCT2100007"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/3nFbpW0Lki4zSJRebGHQYw"
+			},
+			"href": "https://api.spotify.com/v1/tracks/3nFbpW0Lki4zSJRebGHQYw",
+			"id": "3nFbpW0Lki4zSJRebGHQYw",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Popeye",
+			"popularity": 49,
+			"preview_url": "https://p.scdn.co/mp3-preview/51d8b0c648d72b176d8504ad7a6101b9addaffe6?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 4,
+			"type": "track",
+			"uri": "spotify:track:3nFbpW0Lki4zSJRebGHQYw"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T21:30:44Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "B8N4L7WdQZ-0l9PqDNBHwg",
+			"share_url": "https://open.spotify.com/track/1X7fgBLEUIHXIhHgkAxQ05?si=B8N4L7WdQZ-0l9PqDNBHwg",
+			"uri": "spotify:track:1X7fgBLEUIHXIhHgkAxQ05"
+		},
+		"track": {
+			"album": {
+				"album_type": "album",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+					},
+					"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+					"id": "0OLpdla9YvZOtlPnQkXScl",
+					"name": "Jovem Dex",
+					"type": "artist",
+					"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/2LT3aMTtIP0KMyKlMLNkXV"
+				},
+				"href": "https://api.spotify.com/v1/albums/2LT3aMTtIP0KMyKlMLNkXV",
+				"id": "2LT3aMTtIP0KMyKlMLNkXV",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b273b0f68a9ef1e2fd0f57d6be23",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e02b0f68a9ef1e2fd0f57d6be23",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d00004851b0f68a9ef1e2fd0f57d6be23",
+					"width": 64
+				}],
+				"name": "ÉTPM?!",
+				"release_date": "2021-05-13",
+				"release_date_precision": "day",
+				"total_tracks": 13,
+				"type": "album",
+				"uri": "spotify:album:2LT3aMTtIP0KMyKlMLNkXV"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+				},
+				"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+				"id": "0OLpdla9YvZOtlPnQkXScl",
+				"name": "Jovem Dex",
+				"type": "artist",
+				"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+			}],
+			"disc_number": 1,
+			"duration_ms": 133162,
+			"episode": false,
+			"explicit": false,
+			"external_ids": {
+				"isrc": "BXXCT2100003"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/1X7fgBLEUIHXIhHgkAxQ05"
+			},
+			"href": "https://api.spotify.com/v1/tracks/1X7fgBLEUIHXIhHgkAxQ05",
+			"id": "1X7fgBLEUIHXIhHgkAxQ05",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Goat",
+			"popularity": 46,
+			"preview_url": "https://p.scdn.co/mp3-preview/e3b9bfc120f44b00c301eac2391dc2206844261d?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 2,
+			"type": "track",
+			"uri": "spotify:track:1X7fgBLEUIHXIhHgkAxQ05"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T21:31:06Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "mh2ldljBSmS_baKfYC7e5Q",
+			"share_url": "https://open.spotify.com/track/0BTfwekqO4ATT1I3rVw1Ux?si=mh2ldljBSmS_baKfYC7e5Q",
+			"uri": "spotify:track:0BTfwekqO4ATT1I3rVw1Ux"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/2c6lGDjkOP3A9RsFP4DVrz"
+					},
+					"href": "https://api.spotify.com/v1/artists/2c6lGDjkOP3A9RsFP4DVrz",
+					"id": "2c6lGDjkOP3A9RsFP4DVrz",
+					"name": "icedmob",
+					"type": "artist",
+					"uri": "spotify:artist:2c6lGDjkOP3A9RsFP4DVrz"
+				}, {
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/4AzwJwZ476LzoYLu2EZBnX"
+					},
+					"href": "https://api.spotify.com/v1/artists/4AzwJwZ476LzoYLu2EZBnX",
+					"id": "4AzwJwZ476LzoYLu2EZBnX",
+					"name": "PVT Dael",
+					"type": "artist",
+					"uri": "spotify:artist:4AzwJwZ476LzoYLu2EZBnX"
+				}, {
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/062i8CdoT1K5E18Ai4YwVE"
+					},
+					"href": "https://api.spotify.com/v1/artists/062i8CdoT1K5E18Ai4YwVE",
+					"id": "062i8CdoT1K5E18Ai4YwVE",
+					"name": "izzat",
+					"type": "artist",
+					"uri": "spotify:artist:062i8CdoT1K5E18Ai4YwVE"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/6Ky7hl8CTx752MHGz5rH1E"
+				},
+				"href": "https://api.spotify.com/v1/albums/6Ky7hl8CTx752MHGz5rH1E",
+				"id": "6Ky7hl8CTx752MHGz5rH1E",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b27306cb5421fd1dafe9347bef7e",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e0206cb5421fd1dafe9347bef7e",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d0000485106cb5421fd1dafe9347bef7e",
+					"width": 64
+				}],
+				"name": "Azul",
+				"release_date": "2021-02-20",
+				"release_date_precision": "day",
+				"total_tracks": 1,
+				"type": "album",
+				"uri": "spotify:album:6Ky7hl8CTx752MHGz5rH1E"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/2c6lGDjkOP3A9RsFP4DVrz"
+				},
+				"href": "https://api.spotify.com/v1/artists/2c6lGDjkOP3A9RsFP4DVrz",
+				"id": "2c6lGDjkOP3A9RsFP4DVrz",
+				"name": "icedmob",
+				"type": "artist",
+				"uri": "spotify:artist:2c6lGDjkOP3A9RsFP4DVrz"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/4AzwJwZ476LzoYLu2EZBnX"
+				},
+				"href": "https://api.spotify.com/v1/artists/4AzwJwZ476LzoYLu2EZBnX",
+				"id": "4AzwJwZ476LzoYLu2EZBnX",
+				"name": "PVT Dael",
+				"type": "artist",
+				"uri": "spotify:artist:4AzwJwZ476LzoYLu2EZBnX"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/062i8CdoT1K5E18Ai4YwVE"
+				},
+				"href": "https://api.spotify.com/v1/artists/062i8CdoT1K5E18Ai4YwVE",
+				"id": "062i8CdoT1K5E18Ai4YwVE",
+				"name": "izzat",
+				"type": "artist",
+				"uri": "spotify:artist:062i8CdoT1K5E18Ai4YwVE"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/6A8rC2RnuqMKJom5roADWy"
+				},
+				"href": "https://api.spotify.com/v1/artists/6A8rC2RnuqMKJom5roADWy",
+				"id": "6A8rC2RnuqMKJom5roADWy",
+				"name": "Aimar",
+				"type": "artist",
+				"uri": "spotify:artist:6A8rC2RnuqMKJom5roADWy"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/2glKoqeafb0q8pLm4jntjr"
+				},
+				"href": "https://api.spotify.com/v1/artists/2glKoqeafb0q8pLm4jntjr",
+				"id": "2glKoqeafb0q8pLm4jntjr",
+				"name": "coldboyballer",
+				"type": "artist",
+				"uri": "spotify:artist:2glKoqeafb0q8pLm4jntjr"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/4XJOmbkHjg4enpJyx4FMO1"
+				},
+				"href": "https://api.spotify.com/v1/artists/4XJOmbkHjg4enpJyx4FMO1",
+				"id": "4XJOmbkHjg4enpJyx4FMO1",
+				"name": "chigani",
+				"type": "artist",
+				"uri": "spotify:artist:4XJOmbkHjg4enpJyx4FMO1"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/1a3fr7NdeBT4JlGj6YlbDL"
+				},
+				"href": "https://api.spotify.com/v1/artists/1a3fr7NdeBT4JlGj6YlbDL",
+				"id": "1a3fr7NdeBT4JlGj6YlbDL",
+				"name": "Caio Luccas",
+				"type": "artist",
+				"uri": "spotify:artist:1a3fr7NdeBT4JlGj6YlbDL"
+			}],
+			"disc_number": 1,
+			"duration_ms": 301935,
+			"episode": false,
+			"explicit": true,
+			"external_ids": {
+				"isrc": "BCUDJ2100002"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/0BTfwekqO4ATT1I3rVw1Ux"
+			},
+			"href": "https://api.spotify.com/v1/tracks/0BTfwekqO4ATT1I3rVw1Ux",
+			"id": "0BTfwekqO4ATT1I3rVw1Ux",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Azul",
+			"popularity": 53,
+			"preview_url": "https://p.scdn.co/mp3-preview/b70f27144c6915d2611e204a995da507056a8d57?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:0BTfwekqO4ATT1I3rVw1Ux"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T21:31:17Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "QP1iiCEiQSGK7Ub6NYOIfA",
+			"share_url": "https://open.spotify.com/track/2AWbTCosNPu9OI0t3LjOdI?si=QP1iiCEiQSGK7Ub6NYOIfA",
+			"uri": "spotify:track:2AWbTCosNPu9OI0t3LjOdI"
+		},
+		"track": {
+			"album": {
+				"album_type": "album",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+					},
+					"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+					"id": "0OLpdla9YvZOtlPnQkXScl",
+					"name": "Jovem Dex",
+					"type": "artist",
+					"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/2LT3aMTtIP0KMyKlMLNkXV"
+				},
+				"href": "https://api.spotify.com/v1/albums/2LT3aMTtIP0KMyKlMLNkXV",
+				"id": "2LT3aMTtIP0KMyKlMLNkXV",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b273b0f68a9ef1e2fd0f57d6be23",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e02b0f68a9ef1e2fd0f57d6be23",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d00004851b0f68a9ef1e2fd0f57d6be23",
+					"width": 64
+				}],
+				"name": "ÉTPM?!",
+				"release_date": "2021-05-13",
+				"release_date_precision": "day",
+				"total_tracks": 13,
+				"type": "album",
+				"uri": "spotify:album:2LT3aMTtIP0KMyKlMLNkXV"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+				},
+				"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+				"id": "0OLpdla9YvZOtlPnQkXScl",
+				"name": "Jovem Dex",
+				"type": "artist",
+				"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/2KwQkyJzT9r6Hh56jtfuse"
+				},
+				"href": "https://api.spotify.com/v1/artists/2KwQkyJzT9r6Hh56jtfuse",
+				"id": "2KwQkyJzT9r6Hh56jtfuse",
+				"name": "Brandão85",
+				"type": "artist",
+				"uri": "spotify:artist:2KwQkyJzT9r6Hh56jtfuse"
+			}],
+			"disc_number": 1,
+			"duration_ms": 186677,
+			"episode": false,
+			"explicit": false,
+			"external_ids": {
+				"isrc": "BXXCT2100005"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/2AWbTCosNPu9OI0t3LjOdI"
+			},
+			"href": "https://api.spotify.com/v1/tracks/2AWbTCosNPu9OI0t3LjOdI",
+			"id": "2AWbTCosNPu9OI0t3LjOdI",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Obama",
+			"popularity": 52,
+			"preview_url": "https://p.scdn.co/mp3-preview/9987b57bace210742670ef31c2dcfc3068e7285a?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 3,
+			"type": "track",
+			"uri": "spotify:track:2AWbTCosNPu9OI0t3LjOdI"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T21:31:21Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "2HyfkWgAR0mnLsWIWPaFjQ",
+			"share_url": "https://open.spotify.com/track/2U8KRCZSEK7UKsYxnixWqD?si=2HyfkWgAR0mnLsWIWPaFjQ",
+			"uri": "spotify:track:2U8KRCZSEK7UKsYxnixWqD"
+		},
+		"track": {
+			"album": {
+				"album_type": "album",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+					},
+					"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+					"id": "0OLpdla9YvZOtlPnQkXScl",
+					"name": "Jovem Dex",
+					"type": "artist",
+					"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/2LT3aMTtIP0KMyKlMLNkXV"
+				},
+				"href": "https://api.spotify.com/v1/albums/2LT3aMTtIP0KMyKlMLNkXV",
+				"id": "2LT3aMTtIP0KMyKlMLNkXV",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b273b0f68a9ef1e2fd0f57d6be23",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e02b0f68a9ef1e2fd0f57d6be23",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d00004851b0f68a9ef1e2fd0f57d6be23",
+					"width": 64
+				}],
+				"name": "ÉTPM?!",
+				"release_date": "2021-05-13",
+				"release_date_precision": "day",
+				"total_tracks": 13,
+				"type": "album",
+				"uri": "spotify:album:2LT3aMTtIP0KMyKlMLNkXV"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+				},
+				"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+				"id": "0OLpdla9YvZOtlPnQkXScl",
+				"name": "Jovem Dex",
+				"type": "artist",
+				"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/6rk6Izp6o42fUdE0jRqAP4"
+				},
+				"href": "https://api.spotify.com/v1/artists/6rk6Izp6o42fUdE0jRqAP4",
+				"id": "6rk6Izp6o42fUdE0jRqAP4",
+				"name": "Alee",
+				"type": "artist",
+				"uri": "spotify:artist:6rk6Izp6o42fUdE0jRqAP4"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/2KwQkyJzT9r6Hh56jtfuse"
+				},
+				"href": "https://api.spotify.com/v1/artists/2KwQkyJzT9r6Hh56jtfuse",
+				"id": "2KwQkyJzT9r6Hh56jtfuse",
+				"name": "Brandão85",
+				"type": "artist",
+				"uri": "spotify:artist:2KwQkyJzT9r6Hh56jtfuse"
+			}],
+			"disc_number": 1,
+			"duration_ms": 178076,
+			"episode": false,
+			"explicit": false,
+			"external_ids": {
+				"isrc": "BXXCT2100017"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/2U8KRCZSEK7UKsYxnixWqD"
+			},
+			"href": "https://api.spotify.com/v1/tracks/2U8KRCZSEK7UKsYxnixWqD",
+			"id": "2U8KRCZSEK7UKsYxnixWqD",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Tropa do D!",
+			"popularity": 48,
+			"preview_url": "https://p.scdn.co/mp3-preview/d9618f1ac01054648afe897b3392e9f16ca9068e?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 9,
+			"type": "track",
+			"uri": "spotify:track:2U8KRCZSEK7UKsYxnixWqD"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T21:31:40Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "HhftBhcJQB25ZY7ftivvZw",
+			"share_url": "https://open.spotify.com/track/2yNFSf5RNtJwbXhXfMVNCm?si=HhftBhcJQB25ZY7ftivvZw",
+			"uri": "spotify:track:2yNFSf5RNtJwbXhXfMVNCm"
+		},
+		"track": {
+			"album": {
+				"album_type": "album",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+					},
+					"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+					"id": "0OLpdla9YvZOtlPnQkXScl",
+					"name": "Jovem Dex",
+					"type": "artist",
+					"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/2LT3aMTtIP0KMyKlMLNkXV"
+				},
+				"href": "https://api.spotify.com/v1/albums/2LT3aMTtIP0KMyKlMLNkXV",
+				"id": "2LT3aMTtIP0KMyKlMLNkXV",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b273b0f68a9ef1e2fd0f57d6be23",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e02b0f68a9ef1e2fd0f57d6be23",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d00004851b0f68a9ef1e2fd0f57d6be23",
+					"width": 64
+				}],
+				"name": "ÉTPM?!",
+				"release_date": "2021-05-13",
+				"release_date_precision": "day",
+				"total_tracks": 13,
+				"type": "album",
+				"uri": "spotify:album:2LT3aMTtIP0KMyKlMLNkXV"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+				},
+				"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+				"id": "0OLpdla9YvZOtlPnQkXScl",
+				"name": "Jovem Dex",
+				"type": "artist",
+				"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/5K854sjdzabwOy9KltU3Po"
+				},
+				"href": "https://api.spotify.com/v1/artists/5K854sjdzabwOy9KltU3Po",
+				"id": "5K854sjdzabwOy9KltU3Po",
+				"name": "MC Igu",
+				"type": "artist",
+				"uri": "spotify:artist:5K854sjdzabwOy9KltU3Po"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/460m2YG30duLCuHwFdiLgX"
+				},
+				"href": "https://api.spotify.com/v1/artists/460m2YG30duLCuHwFdiLgX",
+				"id": "460m2YG30duLCuHwFdiLgX",
+				"name": "Yunk Vino",
+				"type": "artist",
+				"uri": "spotify:artist:460m2YG30duLCuHwFdiLgX"
+			}],
+			"disc_number": 1,
+			"duration_ms": 180937,
+			"episode": false,
+			"explicit": false,
+			"external_ids": {
+				"isrc": "BXXCT2100015"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/2yNFSf5RNtJwbXhXfMVNCm"
+			},
+			"href": "https://api.spotify.com/v1/tracks/2yNFSf5RNtJwbXhXfMVNCm",
+			"id": "2yNFSf5RNtJwbXhXfMVNCm",
+			"is_local": false,
+			"is_playable": true,
+			"name": "ÉTPM",
+			"popularity": 59,
+			"preview_url": "https://p.scdn.co/mp3-preview/abd15b92d32d59bc1686fdc6fa3c6810420186a8?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 8,
+			"type": "track",
+			"uri": "spotify:track:2yNFSf5RNtJwbXhXfMVNCm"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T21:31:48Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "D63NeG-3T6SZjwND0bUtpQ",
+			"share_url": "https://open.spotify.com/track/43xN94U5MAyfDOFdqwGxWw?si=D63NeG-3T6SZjwND0bUtpQ",
+			"uri": "spotify:track:43xN94U5MAyfDOFdqwGxWw"
+		},
+		"track": {
+			"album": {
+				"album_type": "album",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+					},
+					"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+					"id": "0OLpdla9YvZOtlPnQkXScl",
+					"name": "Jovem Dex",
+					"type": "artist",
+					"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/2LT3aMTtIP0KMyKlMLNkXV"
+				},
+				"href": "https://api.spotify.com/v1/albums/2LT3aMTtIP0KMyKlMLNkXV",
+				"id": "2LT3aMTtIP0KMyKlMLNkXV",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b273b0f68a9ef1e2fd0f57d6be23",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e02b0f68a9ef1e2fd0f57d6be23",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d00004851b0f68a9ef1e2fd0f57d6be23",
+					"width": 64
+				}],
+				"name": "ÉTPM?!",
+				"release_date": "2021-05-13",
+				"release_date_precision": "day",
+				"total_tracks": 13,
+				"type": "album",
+				"uri": "spotify:album:2LT3aMTtIP0KMyKlMLNkXV"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+				},
+				"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+				"id": "0OLpdla9YvZOtlPnQkXScl",
+				"name": "Jovem Dex",
+				"type": "artist",
+				"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+			}],
+			"disc_number": 1,
+			"duration_ms": 208031,
+			"episode": false,
+			"explicit": false,
+			"external_ids": {
+				"isrc": "BXXCT2100011"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/43xN94U5MAyfDOFdqwGxWw"
+			},
+			"href": "https://api.spotify.com/v1/tracks/43xN94U5MAyfDOFdqwGxWw",
+			"id": "43xN94U5MAyfDOFdqwGxWw",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Money Rain",
+			"popularity": 62,
+			"preview_url": "https://p.scdn.co/mp3-preview/1863c6e234a6391c14376bd365fb1a0d4f5c2752?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 6,
+			"type": "track",
+			"uri": "spotify:track:43xN94U5MAyfDOFdqwGxWw"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T21:32:15Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "036I87A-TQKU-IbrTdnz3g",
+			"share_url": "https://open.spotify.com/track/4kManoTL5U7uzmmJFSFSgl?si=036I87A-TQKU-IbrTdnz3g",
+			"uri": "spotify:track:4kManoTL5U7uzmmJFSFSgl"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/1ZcIMjx9kP46pUdFOdjWKQ"
+					},
+					"href": "https://api.spotify.com/v1/artists/1ZcIMjx9kP46pUdFOdjWKQ",
+					"id": "1ZcIMjx9kP46pUdFOdjWKQ",
+					"name": "Abbot",
+					"type": "artist",
+					"uri": "spotify:artist:1ZcIMjx9kP46pUdFOdjWKQ"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/470RGdRXzxkyMFBrszNKwt"
+				},
+				"href": "https://api.spotify.com/v1/albums/470RGdRXzxkyMFBrszNKwt",
+				"id": "470RGdRXzxkyMFBrszNKwt",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b2738f0e744567b4e93dfd6c934d",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e028f0e744567b4e93dfd6c934d",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d000048518f0e744567b4e93dfd6c934d",
+					"width": 64
+				}],
+				"name": "Ela é Branca",
+				"release_date": "2021-04-30",
+				"release_date_precision": "day",
+				"total_tracks": 1,
+				"type": "album",
+				"uri": "spotify:album:470RGdRXzxkyMFBrszNKwt"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/1ZcIMjx9kP46pUdFOdjWKQ"
+				},
+				"href": "https://api.spotify.com/v1/artists/1ZcIMjx9kP46pUdFOdjWKQ",
+				"id": "1ZcIMjx9kP46pUdFOdjWKQ",
+				"name": "Abbot",
+				"type": "artist",
+				"uri": "spotify:artist:1ZcIMjx9kP46pUdFOdjWKQ"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/2jmS6A1btU8qbX7VauYpFz"
+				},
+				"href": "https://api.spotify.com/v1/artists/2jmS6A1btU8qbX7VauYpFz",
+				"id": "2jmS6A1btU8qbX7VauYpFz",
+				"name": "SadxSenpai",
+				"type": "artist",
+				"uri": "spotify:artist:2jmS6A1btU8qbX7VauYpFz"
+			}],
+			"disc_number": 1,
+			"duration_ms": 136842,
+			"episode": false,
+			"explicit": true,
+			"external_ids": {
+				"isrc": "USLZJ2106491"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/4kManoTL5U7uzmmJFSFSgl"
+			},
+			"href": "https://api.spotify.com/v1/tracks/4kManoTL5U7uzmmJFSFSgl",
+			"id": "4kManoTL5U7uzmmJFSFSgl",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Ela é Branca",
+			"popularity": 40,
+			"preview_url": "https://p.scdn.co/mp3-preview/70d74b107d2a7b67b1f5cd1ec4dee3af93b3592e?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:4kManoTL5U7uzmmJFSFSgl"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T21:33:22Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "5iUa1eUNTHiV_bu2xrcBMg",
+			"share_url": "https://open.spotify.com/track/3IlV0oQTh8DrBp38CVJ91p?si=5iUa1eUNTHiV_bu2xrcBMg",
+			"uri": "spotify:track:3IlV0oQTh8DrBp38CVJ91p"
+		},
+		"track": {
+			"album": {
+				"album_type": "album",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+					},
+					"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+					"id": "0OLpdla9YvZOtlPnQkXScl",
+					"name": "Jovem Dex",
+					"type": "artist",
+					"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/2LT3aMTtIP0KMyKlMLNkXV"
+				},
+				"href": "https://api.spotify.com/v1/albums/2LT3aMTtIP0KMyKlMLNkXV",
+				"id": "2LT3aMTtIP0KMyKlMLNkXV",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b273b0f68a9ef1e2fd0f57d6be23",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e02b0f68a9ef1e2fd0f57d6be23",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d00004851b0f68a9ef1e2fd0f57d6be23",
+					"width": 64
+				}],
+				"name": "ÉTPM?!",
+				"release_date": "2021-05-13",
+				"release_date_precision": "day",
+				"total_tracks": 13,
+				"type": "album",
+				"uri": "spotify:album:2LT3aMTtIP0KMyKlMLNkXV"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0OLpdla9YvZOtlPnQkXScl"
+				},
+				"href": "https://api.spotify.com/v1/artists/0OLpdla9YvZOtlPnQkXScl",
+				"id": "0OLpdla9YvZOtlPnQkXScl",
+				"name": "Jovem Dex",
+				"type": "artist",
+				"uri": "spotify:artist:0OLpdla9YvZOtlPnQkXScl"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/23ot0eI6ByBW6LrlBfr2bm"
+				},
+				"href": "https://api.spotify.com/v1/artists/23ot0eI6ByBW6LrlBfr2bm",
+				"id": "23ot0eI6ByBW6LrlBfr2bm",
+				"name": "Pedro Lotto",
+				"type": "artist",
+				"uri": "spotify:artist:23ot0eI6ByBW6LrlBfr2bm"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/1T0F05F7TEo6QYr4vtGJdb"
+				},
+				"href": "https://api.spotify.com/v1/artists/1T0F05F7TEo6QYr4vtGJdb",
+				"id": "1T0F05F7TEo6QYr4vtGJdb",
+				"name": "Paiva Prod",
+				"type": "artist",
+				"uri": "spotify:artist:1T0F05F7TEo6QYr4vtGJdb"
+			}],
+			"disc_number": 1,
+			"duration_ms": 159010,
+			"episode": false,
+			"explicit": false,
+			"external_ids": {
+				"isrc": "BXXCT2100025"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/3IlV0oQTh8DrBp38CVJ91p"
+			},
+			"href": "https://api.spotify.com/v1/tracks/3IlV0oQTh8DrBp38CVJ91p",
+			"id": "3IlV0oQTh8DrBp38CVJ91p",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Tapa",
+			"popularity": 62,
+			"preview_url": "https://p.scdn.co/mp3-preview/bbb150929a495f52cbd5268af6e594a15f52cc91?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:3IlV0oQTh8DrBp38CVJ91p"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T21:34:09Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "SpKoqus1T2GJqMzry_JkYQ",
+			"share_url": "https://open.spotify.com/track/2Y4U0aeq2sGtoSLOy3xal9?si=SpKoqus1T2GJqMzry_JkYQ",
+			"uri": "spotify:track:2Y4U0aeq2sGtoSLOy3xal9"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/4xUawweuqhjMvoScRGbveR"
+					},
+					"href": "https://api.spotify.com/v1/artists/4xUawweuqhjMvoScRGbveR",
+					"id": "4xUawweuqhjMvoScRGbveR",
+					"name": "Raffa Moreira",
+					"type": "artist",
+					"uri": "spotify:artist:4xUawweuqhjMvoScRGbveR"
+				}, {
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/4Y0VwRwAOyJutxoVpPX4td"
+					},
+					"href": "https://api.spotify.com/v1/artists/4Y0VwRwAOyJutxoVpPX4td",
+					"id": "4Y0VwRwAOyJutxoVpPX4td",
+					"name": "Derek",
+					"type": "artist",
+					"uri": "spotify:artist:4Y0VwRwAOyJutxoVpPX4td"
+				}, {
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/1hMrgRIkEemGJWByc74Kki"
+					},
+					"href": "https://api.spotify.com/v1/artists/1hMrgRIkEemGJWByc74Kki",
+					"id": "1hMrgRIkEemGJWByc74Kki",
+					"name": "Jay Kay",
+					"type": "artist",
+					"uri": "spotify:artist:1hMrgRIkEemGJWByc74Kki"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/27zYQKt9FAcoLGM7rc8faU"
+				},
+				"href": "https://api.spotify.com/v1/albums/27zYQKt9FAcoLGM7rc8faU",
+				"id": "27zYQKt9FAcoLGM7rc8faU",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b2739527fc6fdf848c617a77ca5c",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e029527fc6fdf848c617a77ca5c",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d000048519527fc6fdf848c617a77ca5c",
+					"width": 64
+				}],
+				"name": "360",
+				"release_date": "2021-12-10",
+				"release_date_precision": "day",
+				"total_tracks": 1,
+				"type": "album",
+				"uri": "spotify:album:27zYQKt9FAcoLGM7rc8faU"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/4xUawweuqhjMvoScRGbveR"
+				},
+				"href": "https://api.spotify.com/v1/artists/4xUawweuqhjMvoScRGbveR",
+				"id": "4xUawweuqhjMvoScRGbveR",
+				"name": "Raffa Moreira",
+				"type": "artist",
+				"uri": "spotify:artist:4xUawweuqhjMvoScRGbveR"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/4Y0VwRwAOyJutxoVpPX4td"
+				},
+				"href": "https://api.spotify.com/v1/artists/4Y0VwRwAOyJutxoVpPX4td",
+				"id": "4Y0VwRwAOyJutxoVpPX4td",
+				"name": "Derek",
+				"type": "artist",
+				"uri": "spotify:artist:4Y0VwRwAOyJutxoVpPX4td"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/1hMrgRIkEemGJWByc74Kki"
+				},
+				"href": "https://api.spotify.com/v1/artists/1hMrgRIkEemGJWByc74Kki",
+				"id": "1hMrgRIkEemGJWByc74Kki",
+				"name": "Jay Kay",
+				"type": "artist",
+				"uri": "spotify:artist:1hMrgRIkEemGJWByc74Kki"
+			}],
+			"disc_number": 1,
+			"duration_ms": 158826,
+			"episode": false,
+			"explicit": false,
+			"external_ids": {
+				"isrc": "GBWUL2192491"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/2Y4U0aeq2sGtoSLOy3xal9"
+			},
+			"href": "https://api.spotify.com/v1/tracks/2Y4U0aeq2sGtoSLOy3xal9",
+			"id": "2Y4U0aeq2sGtoSLOy3xal9",
+			"is_local": false,
+			"is_playable": true,
+			"name": "360",
+			"popularity": 52,
+			"preview_url": "https://p.scdn.co/mp3-preview/578c1b7765057c23a0882851a327ccdc9332364e?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:2Y4U0aeq2sGtoSLOy3xal9"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T21:38:26Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "6fn7v9ODQC-TXXPJR45pRg",
+			"share_url": "https://open.spotify.com/track/0PGQs6QcQFF4sAq0ZNyvZw?si=6fn7v9ODQC-TXXPJR45pRg",
+			"uri": "spotify:track:0PGQs6QcQFF4sAq0ZNyvZw"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/2c6lGDjkOP3A9RsFP4DVrz"
+					},
+					"href": "https://api.spotify.com/v1/artists/2c6lGDjkOP3A9RsFP4DVrz",
+					"id": "2c6lGDjkOP3A9RsFP4DVrz",
+					"name": "icedmob",
+					"type": "artist",
+					"uri": "spotify:artist:2c6lGDjkOP3A9RsFP4DVrz"
+				}, {
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/2glKoqeafb0q8pLm4jntjr"
+					},
+					"href": "https://api.spotify.com/v1/artists/2glKoqeafb0q8pLm4jntjr",
+					"id": "2glKoqeafb0q8pLm4jntjr",
+					"name": "coldboyballer",
+					"type": "artist",
+					"uri": "spotify:artist:2glKoqeafb0q8pLm4jntjr"
+				}, {
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/1etNnR2SdlelBQAICa2Q5m"
+					},
+					"href": "https://api.spotify.com/v1/artists/1etNnR2SdlelBQAICa2Q5m",
+					"id": "1etNnR2SdlelBQAICa2Q5m",
+					"name": "Mc Pedrinho",
+					"type": "artist",
+					"uri": "spotify:artist:1etNnR2SdlelBQAICa2Q5m"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/0xPyM7dLvXAiw0KedNJJrA"
+				},
+				"href": "https://api.spotify.com/v1/albums/0xPyM7dLvXAiw0KedNJJrA",
+				"id": "0xPyM7dLvXAiw0KedNJJrA",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b273c995753885c3d58ae5fee87e",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e02c995753885c3d58ae5fee87e",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d00004851c995753885c3d58ae5fee87e",
+					"width": 64
+				}],
+				"name": "Verde",
+				"release_date": "2021-03-20",
+				"release_date_precision": "day",
+				"total_tracks": 1,
+				"type": "album",
+				"uri": "spotify:album:0xPyM7dLvXAiw0KedNJJrA"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/1etNnR2SdlelBQAICa2Q5m"
+				},
+				"href": "https://api.spotify.com/v1/artists/1etNnR2SdlelBQAICa2Q5m",
+				"id": "1etNnR2SdlelBQAICa2Q5m",
+				"name": "Mc Pedrinho",
+				"type": "artist",
+				"uri": "spotify:artist:1etNnR2SdlelBQAICa2Q5m"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/2glKoqeafb0q8pLm4jntjr"
+				},
+				"href": "https://api.spotify.com/v1/artists/2glKoqeafb0q8pLm4jntjr",
+				"id": "2glKoqeafb0q8pLm4jntjr",
+				"name": "coldboyballer",
+				"type": "artist",
+				"uri": "spotify:artist:2glKoqeafb0q8pLm4jntjr"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/2c6lGDjkOP3A9RsFP4DVrz"
+				},
+				"href": "https://api.spotify.com/v1/artists/2c6lGDjkOP3A9RsFP4DVrz",
+				"id": "2c6lGDjkOP3A9RsFP4DVrz",
+				"name": "icedmob",
+				"type": "artist",
+				"uri": "spotify:artist:2c6lGDjkOP3A9RsFP4DVrz"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/2X186KyXv1bdIBDzZAowaD"
+				},
+				"href": "https://api.spotify.com/v1/artists/2X186KyXv1bdIBDzZAowaD",
+				"id": "2X186KyXv1bdIBDzZAowaD",
+				"name": "madebycaio",
+				"type": "artist",
+				"uri": "spotify:artist:2X186KyXv1bdIBDzZAowaD"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/062i8CdoT1K5E18Ai4YwVE"
+				},
+				"href": "https://api.spotify.com/v1/artists/062i8CdoT1K5E18Ai4YwVE",
+				"id": "062i8CdoT1K5E18Ai4YwVE",
+				"name": "izzat",
+				"type": "artist",
+				"uri": "spotify:artist:062i8CdoT1K5E18Ai4YwVE"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/4AzwJwZ476LzoYLu2EZBnX"
+				},
+				"href": "https://api.spotify.com/v1/artists/4AzwJwZ476LzoYLu2EZBnX",
+				"id": "4AzwJwZ476LzoYLu2EZBnX",
+				"name": "PVT Dael",
+				"type": "artist",
+				"uri": "spotify:artist:4AzwJwZ476LzoYLu2EZBnX"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/22kCWlXVaiBMYozPgHQhZM"
+				},
+				"href": "https://api.spotify.com/v1/artists/22kCWlXVaiBMYozPgHQhZM",
+				"id": "22kCWlXVaiBMYozPgHQhZM",
+				"name": "Thiago",
+				"type": "artist",
+				"uri": "spotify:artist:22kCWlXVaiBMYozPgHQhZM"
+			}],
+			"disc_number": 1,
+			"duration_ms": 280615,
+			"episode": false,
+			"explicit": true,
+			"external_ids": {
+				"isrc": "BCUDJ2100003"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/0PGQs6QcQFF4sAq0ZNyvZw"
+			},
+			"href": "https://api.spotify.com/v1/tracks/0PGQs6QcQFF4sAq0ZNyvZw",
+			"id": "0PGQs6QcQFF4sAq0ZNyvZw",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Verde",
+			"popularity": 35,
+			"preview_url": "https://p.scdn.co/mp3-preview/c5777035eead2d35509ed408c592bec7a780d822?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:0PGQs6QcQFF4sAq0ZNyvZw"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T21:39:15Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "6siOF7fpT6G-ZvT4z6TTCA",
+			"share_url": "https://open.spotify.com/track/6oYU2uOBLC6Kzh7jrfdngZ?si=6siOF7fpT6G-ZvT4z6TTCA",
+			"uri": "spotify:track:6oYU2uOBLC6Kzh7jrfdngZ"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/3SyOg7lVYi7SEIVgvaVKe0"
+					},
+					"href": "https://api.spotify.com/v1/artists/3SyOg7lVYi7SEIVgvaVKe0",
+					"id": "3SyOg7lVYi7SEIVgvaVKe0",
+					"name": "ogtreasure",
+					"type": "artist",
+					"uri": "spotify:artist:3SyOg7lVYi7SEIVgvaVKe0"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/2ACF9YDjydu46d2WUp7QjP"
+				},
+				"href": "https://api.spotify.com/v1/albums/2ACF9YDjydu46d2WUp7QjP",
+				"id": "2ACF9YDjydu46d2WUp7QjP",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b2739f1f240d1fb39edbfad0230d",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e029f1f240d1fb39edbfad0230d",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d000048519f1f240d1fb39edbfad0230d",
+					"width": 64
+				}],
+				"name": "Tropa do Lil Fofo",
+				"release_date": "2019-10-18",
+				"release_date_precision": "day",
+				"total_tracks": 1,
+				"type": "album",
+				"uri": "spotify:album:2ACF9YDjydu46d2WUp7QjP"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/3SyOg7lVYi7SEIVgvaVKe0"
+				},
+				"href": "https://api.spotify.com/v1/artists/3SyOg7lVYi7SEIVgvaVKe0",
+				"id": "3SyOg7lVYi7SEIVgvaVKe0",
+				"name": "ogtreasure",
+				"type": "artist",
+				"uri": "spotify:artist:3SyOg7lVYi7SEIVgvaVKe0"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0xazmrsqv7px8U921RehiR"
+				},
+				"href": "https://api.spotify.com/v1/artists/0xazmrsqv7px8U921RehiR",
+				"id": "0xazmrsqv7px8U921RehiR",
+				"name": "tharealjuggboy",
+				"type": "artist",
+				"uri": "spotify:artist:0xazmrsqv7px8U921RehiR"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/5QFWsfryRsbn8O2ryBFsqL"
+				},
+				"href": "https://api.spotify.com/v1/artists/5QFWsfryRsbn8O2ryBFsqL",
+				"id": "5QFWsfryRsbn8O2ryBFsqL",
+				"name": "sickobabyxo",
+				"type": "artist",
+				"uri": "spotify:artist:5QFWsfryRsbn8O2ryBFsqL"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/3flTD7WeXOApCaJLbxYUcZ"
+				},
+				"href": "https://api.spotify.com/v1/artists/3flTD7WeXOApCaJLbxYUcZ",
+				"id": "3flTD7WeXOApCaJLbxYUcZ",
+				"name": "YFG Rush",
+				"type": "artist",
+				"uri": "spotify:artist:3flTD7WeXOApCaJLbxYUcZ"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/0PPLdaqs7YY3v0FraxUru2"
+				},
+				"href": "https://api.spotify.com/v1/artists/0PPLdaqs7YY3v0FraxUru2",
+				"id": "0PPLdaqs7YY3v0FraxUru2",
+				"name": "YFG Nobre",
+				"type": "artist",
+				"uri": "spotify:artist:0PPLdaqs7YY3v0FraxUru2"
+			}],
+			"disc_number": 1,
+			"duration_ms": 190658,
+			"episode": false,
+			"explicit": true,
+			"external_ids": {
+				"isrc": "QZHZ41947192"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/6oYU2uOBLC6Kzh7jrfdngZ"
+			},
+			"href": "https://api.spotify.com/v1/tracks/6oYU2uOBLC6Kzh7jrfdngZ",
+			"id": "6oYU2uOBLC6Kzh7jrfdngZ",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Tropa do Lil Fofo",
+			"popularity": 34,
+			"preview_url": "https://p.scdn.co/mp3-preview/972c799ea2ddce07ff73840a0e9da3979bdc8258?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:6oYU2uOBLC6Kzh7jrfdngZ"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}, {
+		"added_at": "2022-01-08T21:42:10Z",
+		"added_by": {
+			"external_urls": {
+				"spotify": "https://open.spotify.com/user/7bwy9non3mu7y1eln5yk6px9v"
+			},
+			"href": "https://api.spotify.com/v1/users/7bwy9non3mu7y1eln5yk6px9v",
+			"id": "7bwy9non3mu7y1eln5yk6px9v",
+			"type": "user",
+			"uri": "spotify:user:7bwy9non3mu7y1eln5yk6px9v"
+		},
+		"is_local": false,
+		"primary_color": null,
+		"sharing_info": {
+			"share_id": "T0KiFYETQ9me_lkDKgsw9w",
+			"share_url": "https://open.spotify.com/track/7Kqxipl9ww73umAMTpejJ2?si=T0KiFYETQ9me_lkDKgsw9w",
+			"uri": "spotify:track:7Kqxipl9ww73umAMTpejJ2"
+		},
+		"track": {
+			"album": {
+				"album_type": "single",
+				"artists": [{
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/5QFWsfryRsbn8O2ryBFsqL"
+					},
+					"href": "https://api.spotify.com/v1/artists/5QFWsfryRsbn8O2ryBFsqL",
+					"id": "5QFWsfryRsbn8O2ryBFsqL",
+					"name": "sickobabyxo",
+					"type": "artist",
+					"uri": "spotify:artist:5QFWsfryRsbn8O2ryBFsqL"
+				}, {
+					"external_urls": {
+						"spotify": "https://open.spotify.com/artist/652w9dxOLPqaEbcCiewJD1"
+					},
+					"href": "https://api.spotify.com/v1/artists/652w9dxOLPqaEbcCiewJD1",
+					"id": "652w9dxOLPqaEbcCiewJD1",
+					"name": "ogtreasure",
+					"type": "artist",
+					"uri": "spotify:artist:652w9dxOLPqaEbcCiewJD1"
+				}],
+				"external_urls": {
+					"spotify": "https://open.spotify.com/album/6WVmRRUrysgxAHJlFjvfdx"
+				},
+				"href": "https://api.spotify.com/v1/albums/6WVmRRUrysgxAHJlFjvfdx",
+				"id": "6WVmRRUrysgxAHJlFjvfdx",
+				"images": [{
+					"height": 640,
+					"url": "https://i.scdn.co/image/ab67616d0000b2732ae0db45880abfe9978f48ef",
+					"width": 640
+				}, {
+					"height": 300,
+					"url": "https://i.scdn.co/image/ab67616d00001e022ae0db45880abfe9978f48ef",
+					"width": 300
+				}, {
+					"height": 64,
+					"url": "https://i.scdn.co/image/ab67616d000048512ae0db45880abfe9978f48ef",
+					"width": 64
+				}],
+				"name": "Broke",
+				"release_date": "2019-08-23",
+				"release_date_precision": "day",
+				"total_tracks": 1,
+				"type": "album",
+				"uri": "spotify:album:6WVmRRUrysgxAHJlFjvfdx"
+			},
+			"artists": [{
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/5QFWsfryRsbn8O2ryBFsqL"
+				},
+				"href": "https://api.spotify.com/v1/artists/5QFWsfryRsbn8O2ryBFsqL",
+				"id": "5QFWsfryRsbn8O2ryBFsqL",
+				"name": "sickobabyxo",
+				"type": "artist",
+				"uri": "spotify:artist:5QFWsfryRsbn8O2ryBFsqL"
+			}, {
+				"external_urls": {
+					"spotify": "https://open.spotify.com/artist/652w9dxOLPqaEbcCiewJD1"
+				},
+				"href": "https://api.spotify.com/v1/artists/652w9dxOLPqaEbcCiewJD1",
+				"id": "652w9dxOLPqaEbcCiewJD1",
+				"name": "ogtreasure",
+				"type": "artist",
+				"uri": "spotify:artist:652w9dxOLPqaEbcCiewJD1"
+			}],
+			"disc_number": 1,
+			"duration_ms": 125071,
+			"episode": false,
+			"explicit": true,
+			"external_ids": {
+				"isrc": "QZHZ31921303"
+			},
+			"external_urls": {
+				"spotify": "https://open.spotify.com/track/7Kqxipl9ww73umAMTpejJ2"
+			},
+			"href": "https://api.spotify.com/v1/tracks/7Kqxipl9ww73umAMTpejJ2",
+			"id": "7Kqxipl9ww73umAMTpejJ2",
+			"is_local": false,
+			"is_playable": true,
+			"name": "Broke",
+			"popularity": 40,
+			"preview_url": "https://p.scdn.co/mp3-preview/d47b2003f9fb0f7abd274ff0227de620d23e2ecc?cid=d8a5ed958d274c2e8ee717e6a4b0971d",
+			"track": true,
+			"track_number": 1,
+			"type": "track",
+			"uri": "spotify:track:7Kqxipl9ww73umAMTpejJ2"
+		},
+		"video_thumbnail": {
+			"url": null
+		}
+	}],
+	"limit": 100,
+	"next": null,
+	"offset": 0,
+	"previous": null,
+	"total": 33
+}
