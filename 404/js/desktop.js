@@ -47,6 +47,10 @@ setInterval(() => {
 
 //<----------------WINDOW DESKTOP GENERATORS---------------->
 
+
+//Essentials Functions
+
+//Create HTML based on String
 function createElementFromHTML(htmlString) {
     var div = document.createElement('div');
     div.innerHTML = htmlString.trim();
@@ -55,12 +59,17 @@ function createElementFromHTML(htmlString) {
     return div.firstChild;
 }
 
+//Destoy window element
+function destroyWindow(e){
+    e.remove()
+}
+
 
 const errAudio = new Audio('audios/error.mp3');
-function createError(programName, err, errDetails) {
+async function createError(programName, err, errDetails) {
     errAudio.play();
     let desktop = document.getElementsByClassName("desktopPrograms")[0];
-    let errWindow = desktop.appendChild(createElementFromHTML(
+    let errWindow = await desktop.appendChild(createElementFromHTML(
         `
         <div class="window programWindow errorWindow">
             <div class="windowHeader">
@@ -77,12 +86,16 @@ function createError(programName, err, errDetails) {
         </div>
         `
     ));
+    
+    $(errWindow).on('mouseup', '.closeButton', function(event) {
+        errWindow.remove()
+    });
 
     $(errWindow).on("mousedown", function () {
         this.parentNode.appendChild(this);
     })
 
-    $(errWindow).draggable({ containment: $(".desktopPrograms"), cancel: '.errorContent' });
+    $(errWindow).draggable({ containment: $(".desktopPrograms"), cancel: '.errorContent, .closeButton' });
     for (item of document.getElementsByClassName("button")) {
         console.log(item, item.classList)
         item.addEventListener("mousedown", (e) => {
