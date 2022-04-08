@@ -21,10 +21,11 @@ fetch("https://api.allorigins.win/get?url=https://open.spotify.com/playlist/4nAr
     }).then(data => {
         let spotifyMusics = data.items;
         let randomMusicName = spotifyMusics[Math.floor(Math.random()*spotifyMusics.length)].track;
-        console.log(`==========${randomMusicName.artists[0].name + randomMusicName.name}=========`)
-        fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&q=${randomMusicName.artists[0].name}%20${randomMusicName.name}&type=video&key=AIzaSyBev7TD0hCnjXfDZeRUaiYWdgCFIcxaczw`).then(res => {
+        console.log(spotifyMusics)
+        fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&q=${randomMusicName.artists[0].name}%20${randomMusicName.name}%20Áudio&type=video&key=`).then(res => {
             return res.json();
         }).then(data => {
+            console.log(data)
             let videoId = data.items[0].id.videoId
             player.loadVideoById(videoId, "small");
         });
