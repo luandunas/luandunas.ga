@@ -60,7 +60,7 @@ function createElementFromHTML(htmlString) {
 }
 
 //Destoy window element
-function destroyWindow(e){
+function destroyWindow(e) {
     e.remove()
 }
 
@@ -86,8 +86,55 @@ async function createError(programName, err, errDetails) {
         </div>
         `
     ));
-    
-    $(errWindow).on('mouseup', '.closeButton', function(event) {
+
+    $(errWindow).on('mouseup', '.closeButton', function (event) {
+        errWindow.remove()
+    });
+
+    $(errWindow).on("mousedown", function () {
+        this.parentNode.appendChild(this);
+    })
+
+    $(errWindow).draggable({ containment: $(".desktopPrograms"), cancel: '.errorContent, .closeButton' });
+    for (item of document.getElementsByClassName("button")) {
+        console.log(item, item.classList)
+        item.addEventListener("mousedown", (e) => {
+            e.currentTarget.classList.add("pressedButton")
+        })
+
+        item.addEventListener("mouseup", (e) => {
+            e.currentTarget.classList.remove("pressedButton")
+        })
+    }
+}
+
+async function filePass(programName) {
+    errAudio.play();
+    let desktop = document.getElementsByClassName("desktopPrograms")[0];
+    let errWindow = await desktop.appendChild(createElementFromHTML(
+        `
+        <div class="window programWindow errorWindow">
+            <div class="windowHeader">
+                <p class="windowTitle text">${programName}</p>
+                <div class="rightButtons">
+                    <button class="closeButton button headerButtons">X</button>
+                </div>
+            </div>
+
+            <div class="errorContent" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                
+                <div class="passwordField">
+                    <p class="labelAboveWindow">Password:</p>
+                    <input class="passwordInput inputField" type="password">
+                </div>
+                <button class="button buttonSelected px-80 pl-5" onclick="init(true)">OK</button>
+            </div>
+            
+        </div>
+        `
+    ));
+
+    $(errWindow).on('mouseup', '.closeButton', function (event) {
         errWindow.remove()
     });
 
@@ -113,7 +160,12 @@ for (item of document.querySelectorAll(".program")) {
     item.addEventListener("dblclick", (e) => {
         let programname = e.currentTarget.dataset.programname.toLowerCase();
         switch (programname) {
-            case 'valorant': createError(programname.toUpperCase(), "COULDN'T START", "is not available on your operating system");
+            case 'valorant':
+                createError(programname.toUpperCase(), "COULDN'T START", "is not available on your operating system");
+                break;
+            case 'diario':
+                filePass("Diário");
+                break;
         }
     })
 }

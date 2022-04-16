@@ -1,4 +1,5 @@
 var player;
+let videoId;
 
 fetch("https://api.allorigins.win/get?url=https://open.spotify.com/playlist/4nArcNkW2LDOuStImVlwzq").then(res => {
     return res.text();
@@ -22,12 +23,13 @@ fetch("https://api.allorigins.win/get?url=https://open.spotify.com/playlist/4nAr
         let spotifyMusics = data.items;
         let randomMusicName = spotifyMusics[Math.floor(Math.random()*spotifyMusics.length)].track;
         console.log(spotifyMusics)
-        fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&q=${randomMusicName.artists[0].name}%20${randomMusicName.name}%20Áudio&type=video&key=`).then(res => {
+        fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&q=${randomMusicName.artists[0].name}%20${randomMusicName.name}%20Áudio&type=video&key=AIzaSyBev7TD0hCnjXfDZeRUaiYWdgCFIcxaczw`).then(res => {
             return res.json();
         }).then(data => {
             console.log(data)
-            let videoId = data.items[0].id.videoId
+            videoId = data.items[0].id.videoId;
             player.loadVideoById(videoId, "small");
+            player.playVideo();
         });
     })
 })
@@ -36,14 +38,14 @@ function onYouTubeIframeAPIReady() {
     player = new YT.Player('playerRef', {
         height: '360',
         width: '640',
-        videoId: 'i8jcP-aphPk',
         suggestedQuality: "small",
-        events: {
-            'onReady': onPlayerReady,
-        }
+        // events: {
+        //     'onReady': onPlayerReady,
+        // }
     });
 }
 
 function onPlayerReady(event) {
+    player.loadVideoById(videoId, "small")
     event.target.playVideo();
 }

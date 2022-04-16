@@ -112,6 +112,10 @@ main{
     border-bottom-color: #FBFBFB;
 }
 
+.inputField:focus{
+    outline: none;
+}
+
 .disabledInputField{
     background-color: #BFBFBF;
     border-style: solid;
@@ -309,5 +313,5 @@ main{
 }
 
 #playerRef{
-    display: none;
+    display: block;
 }
