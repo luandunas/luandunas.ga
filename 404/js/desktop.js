@@ -87,17 +87,19 @@ async function createError(programName, err, errDetails) {
         `
     ));
 
+    $(errWindow).css({"top": `calc((100% - ${$(errWindow).outerHeight()}px)/2)`, "left": `calc((100% - ${$(errWindow).outerWidth()}px)/2)`});
+
     $(errWindow).on('mouseup', '.closeButton', function (event) {
         errWindow.remove()
     });
 
+    //Bring front clicked window. Reposition children element to be the first of his parent.
     $(errWindow).on("mousedown", function () {
         this.parentNode.appendChild(this);
     })
 
     $(errWindow).draggable({ containment: $(".desktopPrograms"), cancel: '.errorContent, .closeButton' });
     for (item of document.getElementsByClassName("button")) {
-        console.log(item, item.classList)
         item.addEventListener("mousedown", (e) => {
             e.currentTarget.classList.add("pressedButton")
         })
@@ -108,10 +110,14 @@ async function createError(programName, err, errDetails) {
     }
 }
 
+function passEnter(){
+    alert("e")
+}
+
 async function filePass(programName) {
     errAudio.play();
     let desktop = document.getElementsByClassName("desktopPrograms")[0];
-    let errWindow = await desktop.appendChild(createElementFromHTML(
+    let prompt = await desktop.appendChild(createElementFromHTML(
         `
         <div class="window programWindow errorWindow">
             <div class="windowHeader">
@@ -125,26 +131,35 @@ async function filePass(programName) {
                 
                 <div class="passwordField">
                     <p class="labelAboveWindow">Password:</p>
-                    <input class="passwordInput inputField" type="password">
+                    <input id="password" class="passwordInput inputField" type="password">
                 </div>
-                <button class="button buttonSelected px-80 pl-5" onclick="init(true)">OK</button>
+                <button id="passSubmit" class="button buttonSelected px-80 pl-5">OK</button>
             </div>
             
         </div>
         `
     ));
 
-    $(errWindow).on('mouseup', '.closeButton', function (event) {
-        errWindow.remove()
+    $(prompt).css({"top": `calc((100% - ${$(prompt).outerHeight()}px)/2)`, "left": `calc((100% - ${$(prompt).outerWidth()}px)/2)`});
+
+    $(prompt).on('mouseup', '.closeButton', function (event) {
+        prompt.remove()
     });
 
-    $(errWindow).on("mousedown", function () {
+    $(prompt).on("mousedown", function () {
         this.parentNode.appendChild(this);
     })
 
-    $(errWindow).draggable({ containment: $(".desktopPrograms"), cancel: '.errorContent, .closeButton' });
+    $(prompt).find('#passSubmit').on('mouseup', function(event) {
+        if($(prompt).find("#password")[0].value == "clea"){
+            alert("Show terms and conditions")
+        }else{
+            alert("Wrong password")
+        }
+    })
+
+    $(prompt).draggable({ containment: $(".desktopPrograms"), cancel: '.errorContent, .closeButton' });
     for (item of document.getElementsByClassName("button")) {
-        console.log(item, item.classList)
         item.addEventListener("mousedown", (e) => {
             e.currentTarget.classList.add("pressedButton")
         })

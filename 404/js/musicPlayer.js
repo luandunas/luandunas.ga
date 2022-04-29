@@ -5,6 +5,7 @@ fetch("https://api.allorigins.win/get?url=https://open.spotify.com/playlist/4nAr
     return res.text();
 }).then(data => {
     let accessToken = data.match(/\\"accessToken\\":\\"(.+?(?=\\",))/)[1];
+    console.log(accessToken)
     fetch('https://api.spotify.com/v1/playlists/4nArcNkW2LDOuStImVlwzq/tracks?offset=0&limit=100&additional_types=track%2Cepisode&market=BR', {
         headers: {
             Accept: "application/json",
@@ -20,6 +21,7 @@ fetch("https://api.allorigins.win/get?url=https://open.spotify.com/playlist/4nAr
     }).then(res => {
         return res.json()
     }).then(data => {
+        console.log(data)
         let spotifyMusics = data.items;
         let randomMusicName = spotifyMusics[Math.floor(Math.random()*spotifyMusics.length)].track;
         console.log(spotifyMusics)

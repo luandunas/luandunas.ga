@@ -40,8 +40,8 @@ main{
     border-width: 2px;
     border-left-color: #FAFAFA;
     border-top-color: #FAFAFA;
-    top: calc(50% - 30px);
-    left: calc((100% - 40%)/2);
+    /* top: calc(50% - 30px);
+    left: calc((100% - 40%)/2); */
 }
 
 /* .allWindowPrograms{
