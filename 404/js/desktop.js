@@ -87,7 +87,7 @@ async function createError(programName, err, errDetails) {
         `
     ));
 
-    $(errWindow).css({"top": `calc((100% - ${$(errWindow).outerHeight()}px)/2)`, "left": `calc((100% - ${$(errWindow).outerWidth()}px)/2)`});
+    $(errWindow).css({ "top": `calc((100% - ${$(errWindow).outerHeight()}px)/2)`, "left": `calc((100% - ${$(errWindow).outerWidth()}px)/2)` });
 
     $(errWindow).on('mouseup', '.closeButton', function (event) {
         errWindow.remove()
@@ -110,7 +110,7 @@ async function createError(programName, err, errDetails) {
     }
 }
 
-function passEnter(){
+function passEnter() {
     alert("e")
 }
 
@@ -140,7 +140,7 @@ async function filePass(programName) {
         `
     ));
 
-    $(prompt).css({"top": `calc((100% - ${$(prompt).outerHeight()}px)/2)`, "left": `calc((100% - ${$(prompt).outerWidth()}px)/2)`});
+    $(prompt).css({ "top": `calc((100% - ${$(prompt).outerHeight()}px)/2)`, "left": `calc((100% - ${$(prompt).outerWidth()}px)/2)` });
 
     $(prompt).on('mouseup', '.closeButton', function (event) {
         prompt.remove()
@@ -150,10 +150,10 @@ async function filePass(programName) {
         this.parentNode.appendChild(this);
     })
 
-    $(prompt).find('#passSubmit').on('mouseup', function(event) {
-        if($(prompt).find("#password")[0].value == "clea"){
+    $(prompt).find('#passSubmit').on('mouseup', function (event) {
+        if ($(prompt).find("#password")[0].value == "clea") {
             alert("Show terms and conditions")
-        }else{
+        } else {
             alert("Wrong password")
         }
     })
@@ -170,6 +170,63 @@ async function filePass(programName) {
     }
 }
 
+async function createWindowProgram(programName) {
+    errAudio.play();
+    let desktop = document.getElementsByClassName("desktopPrograms")[0];
+    let prompt = await desktop.appendChild(createElementFromHTML(
+        `
+        <div class="window programWindow">
+
+            <div class="windowHeader">
+                <p class="windowTitle text">${programName}</p>
+                <div class="rightButtons">
+                    <button class="closeButton button headerButtons">X</button>
+                </div>
+            </div>
+
+            <div class="windowContent" id="cdPlayerContent" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                <div class="mainProgram">
+                    <div>
+                        <img id="musicThumb" src="" alt="">
+                    </div>
+                    
+                    <select id="musicsList">
+                    </select>
+
+                </div>
+            </div>
+
+        </div>
+        `
+    ));
+    initCDplayer();
+
+    $(prompt).css({ "top": `calc((100% - ${$(prompt).outerHeight()}px)/2)`, "left": `calc((100% - ${$(prompt).outerWidth()}px)/2)` });
+
+    $(prompt).on('mouseup', '.closeButton', function (event) {
+        prompt.remove()
+    });
+
+    $(prompt).on("mousedown", function () {
+        this.parentNode.appendChild(this);
+    })
+    $(prompt).find("select").on("mousedown", function (e) {
+        e.stopPropagation();
+    })
+    
+    $(prompt).draggable({ containment: $(".desktopPrograms"), cancel: '.windowContent, .closeButton select' });
+    for (item of document.getElementsByClassName("button")) {
+        item.addEventListener("mousedown", (e) => {
+            e.currentTarget.classList.add("pressedButton")
+        })
+
+        item.addEventListener("mouseup", (e) => {
+            e.currentTarget.classList.remove("pressedButton")
+        })
+    }
+}
+
+
 //Adding listener onClick in all desktop programs.
 for (item of document.querySelectorAll(".program")) {
     item.addEventListener("dblclick", (e) => {
@@ -180,6 +237,9 @@ for (item of document.querySelectorAll(".program")) {
                 break;
             case 'diario':
                 filePass("Diário");
+                break;
+            case 'cdplayer':
+                createWindowProgram("CD Player")
                 break;
         }
     })

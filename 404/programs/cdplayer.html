@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <div class="window programWindow">
+
+        <div class="windowHeader">
+            <p class="windowTitle text">${programName}</p>
+            <div class="rightButtons">
+                <button class="closeButton button headerButtons">X</button>
+            </div>
+        </div>
+
+        <div class="windowContent" id="cdPlayerContent" style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+            <div class="mainProgram">
+                <div>
+                    <img id="musicThumb" src="" alt="">
+                </div>
+                <select id="musicsList">
+                </select>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="playerRef"></div>
+
+    <script>
+        // 2. This code loads the IFrame Player API code asynchronously.
+        var tag = document.createElement('script');
+
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+    </script>
+
+    <script>
+
+        //Getting all Playlist Musics Data (Title, Thumbnail and others)
+        let selectDOM = document.getElementById("musicsList");
+        let playlistDoc;
+        var ytMusicsList;
+        var musicThumbDOM = document.getElementById("musicThumb");
+
+        fetch(`https://api.codetabs.com/v1/proxy?quest=${"https://www.youtube.com/playlist?list=PLoUZf4ebZrEOdhnEXJ5y_stqurY3zjGZf"}`)
+            .then(response => {
+                if (response.ok) return response.text()
+                throw new Error('Network response was not ok.')
+            }).then((data) => {
+                playlistDoc = new DOMParser().parseFromString(data, "text/html");
+                let ytInitialData = JSON.parse(playlistDoc.scripts[34].text.replace("var ytInitialData = ", "").slice(0, -1))
+                console.log(ytInitialData)
+                ytMusicsList = ytInitialData.contents.twoColumnBrowseResultsRenderer.tabs[0].tabRenderer.content.sectionListRenderer.contents[0].itemSectionRenderer.contents[0].playlistVideoListRenderer.contents;
+
+                ytMusicsList.forEach(function (music, index) {
+                    console.log(music)
+                    let option = document.createElement("OPTION");
+                    option.text = music.playlistVideoRenderer.title.runs[0].text;
+                    option.setAttribute("data-index", index)
+                    selectDOM.appendChild(option);
+                })
+            })
+
+        selectDOM.addEventListener('change', function (event) {
+            console.log(event.target[event.target.selectedIndex].getAttribute("data-index"))
+            player.playVideoAt(parseInt(event.target[event.target.selectedIndex].getAttribute("data-index")))
+        })
+
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('playerRef', {
+                height: '360',
+                width: '640',
+                playerVars: {
+                    listType: "playlist",
+                    list: "PLoUZf4ebZrEOdhnEXJ5y_stqurY3zjGZf",
+                    loop: 1
+                },
+                suggestedQuality: "small",
+                events: {
+                    'onReady': onPlayerReady,
+                    'onStateChange': onPlayerStateChange,
+                }
+            });
+            // This is the source "window" that will emit the events.
+            var iframeWindow = player.getIframe().contentWindow;
+
+            // So we can compare against new updates.
+            var lastTimeUpdate = 0;
+
+            // Listen to events triggered by postMessage.
+            window.addEventListener("message", function (event) {
+                // Check that the event was sent from the YouTube IFrame.
+                if (event.source === iframeWindow) {
+                    var data = JSON.parse(event.data);
+
+                    // The "infoDelivery" event is used by YT to transmit any
+                    // kind of information change in the player,
+                    // such as the current time or a playback quality change.
+                    if (
+                        data.event === "infoDelivery" &&
+                        data.info &&
+                        data.info.currentTime
+                    ) {
+                        // currentTime is emitted very frequently,
+                        // but we only care about whole second changes.
+                        var time = Math.floor(data.info.currentTime);
+
+                        if (time !== lastTimeUpdate) {
+                            lastTimeUpdate = parseInt(time);
+                            var minutes = Math.floor(time / 60);
+                            var seconds = time - minutes * 60;
+                            console.log(minutes, ("0" + seconds).slice(-2));
+                        }
+                    }
+                }
+            });
+        }
+
+        function onPlayerReady(event) {
+            event.target.playVideoAt(33);
+        }
+
+        function onPlayerStateChange(event) {
+            if (event.data == -1) {
+                document.getElementById("musicsList").selectedIndex = event.target.getPlaylistIndex();
+                musicThumbDOM.src = ytMusicsList[event.target.getPlaylistIndex()].playlistVideoRenderer.thumbnail.thumbnails[3].url
+            }
+        }
+    </script>
+</body>
+
+</html>

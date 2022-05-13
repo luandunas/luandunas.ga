@@ -1,2 +1,6 @@
-Programa AnomMe
-Programa para as pessoas escreverem o que sente anonymamente armazenando em um banco de dados
+<---Ideias desconsiderada--->
+- Programa AnomMe
+   Programa para as pessoas escreverem o que sente anonymamente armazenando em um banco de dados
+<--------------------------->
+
+Criar uma página de apresentação na primeira página do Diário, onde será uma ficha técnica com idade e descrições. Seguir um modelo de fotos como se fosse um registro de presos no sistema penitenciário dos Estados Unidos, utilizando fund de mugshot e placa com a descrição do preso e com roupas de presidiarios.
